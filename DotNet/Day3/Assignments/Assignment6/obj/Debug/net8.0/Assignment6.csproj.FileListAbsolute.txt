@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\bin\Debug\net8.0\Assignment6.exe
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\bin\Debug\net8.0\Assignment6.deps.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\bin\Debug\net8.0\Assignment6.runtimeconfig.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\bin\Debug\net8.0\Assignment6.dll
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\bin\Debug\net8.0\Assignment6.pdb
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\obj\Debug\net8.0\Assignment6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\obj\Debug\net8.0\Assignment6.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\obj\Debug\net8.0\Assignment6.AssemblyInfo.cs
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\obj\Debug\net8.0\Assignment6.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\obj\Debug\net8.0\Assignment6.dll
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\obj\Debug\net8.0\refint\Assignment6.dll
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\obj\Debug\net8.0\Assignment6.pdb
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\obj\Debug\net8.0\Assignment6.genruntimeconfig.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day3\Assignments\Assignment6\obj\Debug\net8.0\ref\Assignment6.dll
