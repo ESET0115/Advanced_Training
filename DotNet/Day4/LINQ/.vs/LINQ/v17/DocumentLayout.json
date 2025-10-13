@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\LINQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8FE29BE-1831-4A0D-AC7D-D3AF18EEBEF5}|..\\Assignment\\Assignment1\\Assignment1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\assignment\\assignment1\\assignment1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8FE29BE-1831-4A0D-AC7D-D3AF18EEBEF5}|..\\Assignment\\Assignment1\\Assignment1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\assignment\\assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8FE29BE-1831-4A0D-AC7D-D3AF18EEBEF5}|..\\Assignment\\Assignment1\\Assignment1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\assignment\\assignment1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8FE29BE-1831-4A0D-AC7D-D3AF18EEBEF5}|..\\Assignment\\Assignment1\\Assignment1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\assignment\\assignment1\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8FE29BE-1831-4A0D-AC7D-D3AF18EEBEF5}|..\\Assignment\\Assignment1\\Assignment1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\assignment\\assignment1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8FE29BE-1831-4A0D-AC7D-D3AF18EEBEF5}|..\\Assignment\\Assignment1\\Assignment1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\assignment\\assignment1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFC1A2F-8B8B-4DDA-AE2E-8EEEEFFE5782}|LINQ.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\linq\\games.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFC1A2F-8B8B-4DDA-AE2E-8EEEEFFE5782}|LINQ.csproj|solutionrelative:games.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFC1A2F-8B8B-4DDA-AE2E-8EEEEFFE5782}|LINQ.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFC1A2F-8B8B-4DDA-AE2E-8EEEEFFE5782}|LINQ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Product.cs",
+              "RelativeDocumentMoniker": "..\\Assignment\\Assignment1\\Product.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Product.cs",
+              "RelativeToolTip": "..\\Assignment\\Assignment1\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:21:15.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Student.cs",
+              "RelativeDocumentMoniker": "..\\Assignment\\Assignment1\\Student.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Student.cs",
+              "RelativeToolTip": "..\\Assignment\\Assignment1\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:20:54.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\Assignment\\Assignment1\\Employee.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Employee.cs",
+              "RelativeToolTip": "..\\Assignment\\Assignment1\\Employee.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:18:37.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Assignment\\Assignment1\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Program.cs",
+              "RelativeToolTip": "..\\Assignment\\Assignment1\\Program.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAADwv90AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:16:42.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Assignment\\Assignment1\\Order.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Order.cs",
+              "RelativeToolTip": "..\\Assignment\\Assignment1\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:20:24.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Assignment1.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Assignment1.csproj",
+              "RelativeDocumentMoniker": "..\\Assignment\\Assignment1\\Assignment1.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\Assignment\\Assignment1\\Assignment1.csproj",
+              "RelativeToolTip": "..\\Assignment\\Assignment1\\Assignment1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-09T06:19:54.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Games.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\LINQ\\Games.cs",
+              "RelativeDocumentMoniker": "Games.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\LINQ\\Games.cs",
+              "RelativeToolTip": "Games.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T04:29:57.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\LINQ\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\LINQ\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwEMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T04:25:49.603Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

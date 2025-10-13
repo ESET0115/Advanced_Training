@@ -1,0 +1,96 @@
+/* Basic styles to match the provided design (desktop-centered form) */
+:root{
+  --muted:#ece8e3;
+  --accent:#5b2fa6; /* purple-ish */
+}
+
+.login-page{
+  min-height:25vh;
+  max-height: 80vh;
+  display:flex;
+  flex-direction:column;
+  background: #f7f1ec;
+}
+
+.topbar{
+  height:56px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 16px;
+  background:#dfdfdf;
+  color:#000;
+  box-shadow:inset 0 -1px 0 rgba(0,0,0,0.05);
+}
+.topbar .brand{
+  font-weight:700;
+  font-size:20px;
+}
+
+.login-container{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:40px 20px;
+}
+
+.title{
+  margin-bottom:18px;
+  font-size: 25px;
+  font-weight:400;
+  color: black;
+}
+
+.login-form{
+  width:680px;
+  max-width:92vw;
+}
+
+.pill-input{
+  width:60%;
+  height:52px;
+  border-radius:20px;
+  border: 1px solid #ccc;
+  background:#eaeaea;
+  padding:0 24px;
+  margin:12px 0;
+  font-size:16px;
+  color: #000;
+}
+
+.form-row{
+  display:flex;
+  align-items:center;
+}
+.space-between{justify-content:space-between;}
+.center{justify-content:center;}
+
+.remember{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:#111;
+}
+.remember input{width:18px;height:18px}
+
+.forgot{
+  color:var(--accent);
+  text-decoration:none;
+  font-weight:700;
+}
+
+.login-btn{
+  margin-top:26px;
+  padding:12px 72px;
+  border-radius:28px;
+  border:2px solid #000;
+  background:transparent;
+  cursor:pointer;
+  color: #000;
+}
+
+@media (max-width:520px){
+  .login-form{width:92vw}
+}
