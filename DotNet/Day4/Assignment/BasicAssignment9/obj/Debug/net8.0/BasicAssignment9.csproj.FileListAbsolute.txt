@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\bin\Debug\net8.0\BasicAssignment9.exe
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\bin\Debug\net8.0\BasicAssignment9.deps.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\bin\Debug\net8.0\BasicAssignment9.runtimeconfig.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\bin\Debug\net8.0\BasicAssignment9.dll
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\bin\Debug\net8.0\BasicAssignment9.pdb
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\BasicAssignment9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\BasicAssignment9.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\BasicAssignment9.AssemblyInfo.cs
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\BasicAssignment9.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\BasicAssignment9.sourcelink.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\BasicAssignment9.dll
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\refint\BasicAssignment9.dll
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\BasicAssignment9.pdb
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\BasicAssignment9.genruntimeconfig.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment9\obj\Debug\net8.0\ref\BasicAssignment9.dll

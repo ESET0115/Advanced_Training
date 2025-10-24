@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\bin\Debug\net8.0\BasicAssignment4.exe
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\bin\Debug\net8.0\BasicAssignment4.deps.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\bin\Debug\net8.0\BasicAssignment4.runtimeconfig.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\bin\Debug\net8.0\BasicAssignment4.dll
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\bin\Debug\net8.0\BasicAssignment4.pdb
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\BasicAssignment4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\BasicAssignment4.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\BasicAssignment4.AssemblyInfo.cs
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\BasicAssignment4.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\BasicAssignment4.sourcelink.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\BasicAssignment4.dll
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\refint\BasicAssignment4.dll
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\BasicAssignment4.pdb
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\BasicAssignment4.genruntimeconfig.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Day4\Assignment\BasicAssignment4\obj\Debug\net8.0\ref\BasicAssignment4.dll

@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "role": "end_user",
+      "name": "John Doe",
+      "zone": "Bangalore North",
+      "meterId": "SM-1023",
+      "lastLogin": "2025-01-15T10:45:00Z",
+      "permissions": [
+        "view_dashboard",
+        "view_bills",
+        "view_meter_data",
+        "view_alerts",
+        "manage_profile",
+        "view_logs"
+      ]
+    },
+    {
+      "id": 2,
+      "username": "sarah_manager",
+      "email": "sarah.manager@example.com",
+      "password": "password123",
+      "role": "zone_manager",
+      "name": "Sarah Johnson",
+      "zone": "Mangalore Zone",
+      "lastLogin": "2025-01-15T09:30:00Z",
+      "permissions": [
+        "view_zone_dashboard",
+        "manage_zone_meters",
+        "manage_zone_users",
+        "view_zone_reports",
+        "manage_zone_notifications",
+        "view_zone_analytics"
+      ]
+    },
+    {
+      "id": 3,
+      "username": "admin_enterprise",
+      "email": "admin@enterprise.com",
+      "password": "password123",
+      "role": "enterprise_admin",
+      "name": "Enterprise Admin",
+      "lastLogin": "2025-01-15T08:15:00Z",
+      "permissions": [
+        "view_enterprise_dashboard",
+        "manage_all_zones",
+        "manage_all_meters",
+        "manage_user_roles",
+        "view_audit_logs",
+        "manage_system_configuration",
+        "view_enterprise_analytics"
+      ]
+    }
+  ]
+}

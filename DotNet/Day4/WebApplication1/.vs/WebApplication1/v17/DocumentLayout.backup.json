@@ -7,12 +7,52 @@
       "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:controllers\\collageapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\model\\collagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:model\\collagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\data\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:data\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\data\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:data\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\model\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:model\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\data\\collagedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:data\\collagedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\data\\studentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:data\\studentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\model\\collagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:model\\collagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\data\\coursedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:data\\coursedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\migrations\\20251015071616_initialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:migrations\\20251015071616_initialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\model\\datecheckattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|solutionrelative:model\\datecheckattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5B29C87-658A-463E-9C7F-1DAE1AD2D88F}|WebApplication1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\day4\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -26,11 +66,143 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CollageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\CollageRepository.cs",
+              "RelativeDocumentMoniker": "Model\\CollageRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\CollageRepository.cs",
+              "RelativeToolTip": "Model\\CollageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T04:33:40.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IstudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\Repository\\IstudentRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\IstudentRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\Repository\\IstudentRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\IstudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T04:40:08.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseDB.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\CourseDB.cs",
+              "RelativeDocumentMoniker": "Data\\CourseDB.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\CourseDB.cs",
+              "RelativeToolTip": "Data\\CourseDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T04:35:15.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\StudentRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T04:34:06.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20251015071616_initialize.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Migrations\\20251015071616_initialize.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251015071616_initialize.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Migrations\\20251015071616_initialize.cs",
+              "RelativeToolTip": "Migrations\\20251015071616_initialize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T07:16:16.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-15T06:50:31.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:46:17.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentDB.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\StudentDB.cs",
+              "RelativeDocumentMoniker": "Data\\StudentDB.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\StudentDB.cs",
+              "RelativeToolTip": "Data\\StudentDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:31:29.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollageDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\CollageDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\CollageDBContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Data\\CollageDBContext.cs",
+              "RelativeToolTip": "Data\\CollageDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:28:07.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DateCheckAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\DateCheckAttribute.cs",
+              "RelativeDocumentMoniker": "Model\\DateCheckAttribute.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\DateCheckAttribute.cs",
+              "RelativeToolTip": "Model\\DateCheckAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T09:26:12.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "studentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\studentDTO.cs",
+              "RelativeDocumentMoniker": "Model\\studentDTO.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\studentDTO.cs",
+              "RelativeToolTip": "Model\\studentDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T04:25:29.872Z"
             },
             {
               "$type": "Document",
@@ -40,38 +212,26 @@
               "RelativeDocumentMoniker": "Controllers\\CollageApp.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Controllers\\CollageApp.cs",
               "RelativeToolTip": "Controllers\\CollageApp.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T09:49:16.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\Student.cs",
               "RelativeDocumentMoniker": "Model\\Student.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\Student.cs",
               "RelativeToolTip": "Model\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T09:48:46.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CollageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\CollageRepository.cs",
-              "RelativeDocumentMoniker": "Model\\CollageRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\Model\\CollageRepository.cs",
-              "RelativeToolTip": "Model\\CollageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T09:48:27.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Day4\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1.csproj",

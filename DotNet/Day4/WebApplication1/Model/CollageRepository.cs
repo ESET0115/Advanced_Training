@@ -2,7 +2,7 @@
 {
     public class CollageRepository
     {
-        public static List<Student> students { get; set; } = new List<Student>(){ new Student
+        public static List<studentDTO> students { get; set; } = new List<studentDTO>(){ new studentDTO
             {
                 studentId = 1,
                 name = "Test",
@@ -10,7 +10,7 @@
                 email = "shivam@gmail.com"
             },
 
-            new Student {
+            new studentDTO {
         
                 studentId = 2,
                 name = "Test2",
