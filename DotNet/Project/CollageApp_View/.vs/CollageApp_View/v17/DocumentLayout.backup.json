@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collageapp_view\\views\\student\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|solutionrelative:views\\student\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collageapp_view\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collageapp_view\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|solutionrelative:controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collageapp_view\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|solutionrelative:views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collageapp_view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D08279-62BC-4709-8615-05350B4680B9}|CollageApp_View.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Views\\Student\\Student.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Student.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Views\\Student\\Student.cshtml",
+              "RelativeToolTip": "Views\\Student\\Student.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T04:44:11.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Views\\Auth\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Views\\Auth\\Index.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T09:34:40.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Controllers\\Auth.cs",
+              "RelativeDocumentMoniker": "Controllers\\Auth.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Controllers\\Auth.cs",
+              "RelativeToolTip": "Controllers\\Auth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:33:35.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:22:32.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollageApp_View\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:46:02.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

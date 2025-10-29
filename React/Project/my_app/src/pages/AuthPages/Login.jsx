@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useAuth } from '../../context/AuthContext'
+import { useAuth } from '../../hooks/useAuth'
 import '../../styles/Login.css'
 import Header from '../../components/Header'
 
@@ -88,11 +88,11 @@ export default function Login() {
           </div>
         </form>
 
-        <div className="demo-accounts" style={{ marginTop: '20px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '8px', dark:{backgroundColor:'#000'} }}>
-          <h3 style={{ fontSize: '14px', marginBottom: '10px', color: '#666', dark:{color:'#fff'} }}>Demo Accounts:</h3>
-          <div style={{ fontSize: '12px', color: '#666', dark:{color:'#fff'} }}>
+        <div className="demo-accounts card-compact" style={{ marginTop: '20px' }}>
+          <h3 className="demo-accounts-title">Demo Accounts:</h3>
+          <div className="demo-accounts-list">
             <p><strong>End User:</strong> john.doe@example.com / password123</p>
-            <p><strong>Zone Manager:</strong> sarah.manager@example.com / password123</p> 
+            <p><strong>Zone Manager:</strong> sarah.manager@example.com / password123</p>
             <p><strong>Enterprise Admin:</strong> admin@enterprise.com / password123</p>
           </div>
         </div>

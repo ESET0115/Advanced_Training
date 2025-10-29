@@ -49,3 +49,34 @@
 .page-title{color:#111}
 .dark .page-title{color:#ffffff}
 
+/* CSS variables for theming (kept here for layout-specific overrides) */
+:root{
+	--bg: #faf7f2;
+	--card-bg: #fff;
+	--card-lite-bg: #fff;
+	--muted: #666;
+	--text: #111;
+	--accent: #8b5cf6;
+	--table-border: #cfcfcf;
+}
+
+:root.dark{
+	--bg: #0f1724;
+	--card-bg: #0b1220;
+	--card-lite-bg: #071025;
+	--muted: #94a3b8;
+	--text: #e6eef8;
+	--accent: #8b5cf6;
+	--table-border: #111827;
+}
+
+/* Use variables to override some key layout pieces */
+.app-shell{background:var(--bg)}
+.sidebar{background:var(--card-bg);border-right:1px solid var(--table-border)}
+.sidebar .brand{color:var(--text)}
+.menu-item{color:var(--text)}
+.sidebar-footer{border-top:1px solid var(--table-border)}
+.user-role{color:var(--muted)}
+.card{background:var(--card-bg)}
+.dark .menu-item{color:var(--muted)}
+

@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Migrations\\20251024100202_myMig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251024100202_myMig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\dtos\\updatestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:dtos\\updatestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\inventorymanagement\\inventorymanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C766E30D-B144-47A1-88B1-05180F786F3A}|InventoryManagement.csproj|solutionrelative:inventorymanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251024100202_myMig.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Migrations\\20251024100202_myMig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251024100202_myMig.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Migrations\\20251024100202_myMig.cs",
+              "RelativeToolTip": "Migrations\\20251024100202_myMig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T10:02:02.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateStockDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\UpdateStockDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateStockDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\UpdateStockDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateStockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:57:43.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:58:19.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T08:56:21.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAwHoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:48:58.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAswAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:48:43.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:47:53.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:47:42.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:47:29.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:47:19.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:47:06.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:46:55.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:46:00.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:45:45.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\UpdateProductDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:45:17.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\CreateProductDto.cs",
+              "RelativeToolTip": "DTOs\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:45:03.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:44:52.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:44:40.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InventoryManagement",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\InventoryManagement.csproj",
+              "RelativeDocumentMoniker": "InventoryManagement.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\InventoryManagement.csproj",
+              "RelativeToolTip": "InventoryManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T08:44:09.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\InventoryManagement\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:43:51.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Students";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Students</h2>
+        <div>
+            <button id="btn-add-student" class="btn btn-success me-2">Add Student</button>
+            <button id="btn-logout" class="btn btn-outline-secondary">Logout</button>
+            <button id="btnCourses" class="btn btn-outline-primary ms-2">Courses</button>
+        </div>
+    </div>
+
+    <div id="studentsAlert" class="alert d-none"></div>
+
+    <table class="table table-hover" id="studentsTable">
+        <thead class="table-light">
+            <tr>
+                <th>StudentId</th>
+                <th>Roll Number</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Course</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<!-- Edit/Add Modal placeholder -->
+<div id="studentModalPlaceholder"></div>
+
+@section Scripts {
+    <script src="~/js/students.js"></script>
+}

@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c# assignments\\student_app_ui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\views\\courses\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\views\\courses\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\wwwroot\\js\\courses.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\wwwroot\\js\\courses.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\views\\students\\_editmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\views\\students\\_editmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\wwwroot\\js\\students.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\wwwroot\\js\\students.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\views\\courses\\_courseeditmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\views\\courses\\_courseeditmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\views\\students\\_courselistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\views\\students\\_courselistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|d:\\c# assignments\\student_app_ui\\student_app_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8259C3C-AADC-4D40-9312-B61A97C21FA6}|student_app_ui\\student_app_ui.csproj|solutionrelative:student_app_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Courses\\List.cshtml",
+              "RelativeDocumentMoniker": "student_app_ui\\Views\\Courses\\List.cshtml",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Courses\\List.cshtml",
+              "RelativeToolTip": "student_app_ui\\Views\\Courses\\List.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T07:07:04.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_CourseEditModal.cshtml",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Courses\\_CourseEditModal.cshtml",
+              "RelativeDocumentMoniker": "student_app_ui\\Views\\Courses\\_CourseEditModal.cshtml",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Courses\\_CourseEditModal.cshtml",
+              "RelativeToolTip": "student_app_ui\\Views\\Courses\\_CourseEditModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T06:48:45.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "courses.js",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\wwwroot\\js\\courses.js",
+              "RelativeDocumentMoniker": "student_app_ui\\wwwroot\\js\\courses.js",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\wwwroot\\js\\courses.js",
+              "RelativeToolTip": "student_app_ui\\wwwroot\\js\\courses.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T06:23:00.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "auth.js",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\wwwroot\\js\\auth.js",
+              "RelativeDocumentMoniker": "student_app_ui\\wwwroot\\js\\auth.js",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\wwwroot\\js\\auth.js",
+              "RelativeToolTip": "student_app_ui\\wwwroot\\js\\auth.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T06:21:26.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "student_app_ui\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "student_app_ui\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T06:21:15.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "student_app_ui\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "student_app_ui\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAgAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T04:58:41.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "students.js",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\wwwroot\\js\\students.js",
+              "RelativeDocumentMoniker": "student_app_ui\\wwwroot\\js\\students.js",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\wwwroot\\js\\students.js",
+              "RelativeToolTip": "student_app_ui\\wwwroot\\js\\students.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T04:58:00.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "student_app_ui\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "student_app_ui\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T04:57:05.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_CourseListPartial.cshtml",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Students\\_CourseListPartial.cshtml",
+              "RelativeDocumentMoniker": "student_app_ui\\Views\\Students\\_CourseListPartial.cshtml",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Students\\_CourseListPartial.cshtml",
+              "RelativeToolTip": "student_app_ui\\Views\\Students\\_CourseListPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T04:56:30.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_EditModal.cshtml",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Students\\_EditModal.cshtml",
+              "RelativeDocumentMoniker": "student_app_ui\\Views\\Students\\_EditModal.cshtml",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Students\\_EditModal.cshtml",
+              "RelativeToolTip": "student_app_ui\\Views\\Students\\_EditModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T04:56:05.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "student_app_ui\\Views\\Students\\Index.cshtml",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "student_app_ui\\Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T04:55:37.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "student_app_ui\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "student_app_ui\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T04:52:25.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Program.cs",
+              "RelativeDocumentMoniker": "student_app_ui\\Program.cs",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Program.cs",
+              "RelativeToolTip": "student_app_ui\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T04:44:09.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "student_app_ui\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "student_app_ui\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T04:43:50.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "student_app_ui\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "student_app_ui\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T04:42:12.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "student_app_ui\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\c# assignments\\student_app_ui\\student_app_ui\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "student_app_ui\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T04:41:50.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

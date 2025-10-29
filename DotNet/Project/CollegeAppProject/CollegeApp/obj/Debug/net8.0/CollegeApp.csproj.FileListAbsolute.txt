@@ -1,0 +1,9 @@
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\CollegeAppProject\CollegeApp\obj\Debug\net8.0\CollegeApp.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\CollegeAppProject\CollegeApp\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\CollegeAppProject\CollegeApp\obj\Debug\net8.0\CollegeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\CollegeAppProject\CollegeApp\obj\Debug\net8.0\CollegeApp.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\CollegeAppProject\CollegeApp\obj\Debug\net8.0\CollegeApp.AssemblyInfo.cs
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\CollegeAppProject\CollegeApp\obj\Debug\net8.0\CollegeApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\CollegeAppProject\CollegeApp\obj\Debug\net8.0\CollegeApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\CollegeAppProject\CollegeApp\obj\Debug\net8.0\CollegeApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\CollegeAppProject\CollegeApp\obj\Debug\net8.0\CollegeApp.sourcelink.json

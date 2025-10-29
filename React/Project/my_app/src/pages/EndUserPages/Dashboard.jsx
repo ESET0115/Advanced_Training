@@ -1,5 +1,5 @@
 import React from 'react'
-import { useAuth } from '../../context/AuthContext'
+import { useAuth } from '../../hooks/useAuth'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
 
 const consumptionData = [
@@ -43,7 +43,7 @@ export default function Dashboard() {
           <div className="card border-l-4 border-blue-500">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-              <span className="text-blue-600">⏰</span>
+              <span className="text-blue-600">⚡</span>
             </div>
             <div>
               <div className="text-2xl font-bold text-gray-800">256 kWh</div>
@@ -67,7 +67,7 @@ export default function Dashboard() {
           <div className="card border-l-4 border-yellow-500">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center">
-              <span className="text-yellow-600">⏰</span>
+              <span className="text-yellow-600">⚠️</span>
             </div>
             <div>
               <div className="text-2xl font-bold text-gray-800">₹120</div>
@@ -79,7 +79,7 @@ export default function Dashboard() {
           <div className="card border-l-4 border-purple-500">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
-              <span className="text-purple-600">⏰</span>
+              <span className="text-purple-600">✔️</span>
             </div>
             <div>
               <div className="text-2xl font-bold text-gray-800">₹1,200</div>
@@ -119,10 +119,10 @@ export default function Dashboard() {
               <Line 
                 type="monotone" 
                 dataKey="consumption" 
-                stroke="#8b5cf6" 
+                stroke="var(--accent)" 
                 strokeWidth={3}
-                dot={{ fill: '#8b5cf6', strokeWidth: 2, r: 4 }}
-                activeDot={{ r: 6, stroke: '#8b5cf6', strokeWidth: 2 }}
+                dot={{ fill: 'var(--accent)', strokeWidth: 2, r: 4 }}
+                activeDot={{ r: 6, stroke: 'var(--accent)', strokeWidth: 2 }}
               />
             </LineChart>
           </ResponsiveContainer>

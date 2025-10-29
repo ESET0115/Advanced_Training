@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Courses";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Courses</h2>
+        <button id="btn-add-course" class="btn btn-success">Add Course</button>
+    </div>
+
+    <table class="table table-sm" id="coursesTable">
+        <thead class="table-light">
+            <tr>
+                <th>CourseId</th>
+                <th>CourseCode</th>
+                <th>CourseName</th>
+                <th>Department</th>
+                <th>Semester</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="~/js/courses.js"></script>
+}

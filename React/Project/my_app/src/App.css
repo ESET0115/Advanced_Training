@@ -1,6 +1,26 @@
 @import "tailwindcss";
 
 /* Ensure full-bleed layout: remove default body margins and root padding */
+:root{
+  --bg: #faf7f2;
+  --card-bg: #fff;
+  --card-lite-bg: #fff;
+  --muted: #666;
+  --text: #111;
+  --accent: #8b5cf6;
+  --table-border: #cfcfcf;
+}
+
+:root.dark{
+  --bg: #0f1724;
+  --card-bg: #0b1220;
+  --card-lite-bg: #071025;
+  --muted: #94a3b8;
+  --text: #e6eef8;
+  --accent: #8b5cf6;
+  --table-border: #111827;
+}
+
 html, body, #root {
   width: 100%;
   height: 100%;
@@ -16,7 +36,7 @@ html, body, #root {
 }
 
 /* make body background consistent with app-shell default */
-body{background:#faf7f2}
+body{background:var(--bg);color:var(--text)}
 
 .logo {
   height: 6em;
@@ -48,31 +68,63 @@ body{background:#faf7f2}
 
 .card {
   padding: 2em;
+  background: var(--card-bg);
 }
 
 .read-the-docs {
   color: #888;
 }
 
-.card-lite{background:#fff;border:1px solid #e1e1e1;border-radius:10px;padding:16px;box-shadow:0 1px 1px rgba(0,0,0,0.02)}
+.card-lite{background:var(--card-lite-bg);border:1px solid #e1e1e1;border-radius:10px;padding:16px;box-shadow:0 1px 1px rgba(0,0,0,0.02)}
 .card-graph{background:#f4f4f4;border:1px solid #e1e1e1;border-radius:12px}
-.pill-action{padding:6px 12px;border-radius:14px;border:1px solid #cfcfcf;background:#fff;cursor:pointer}
+.pill-action{padding:6px 12px;border-radius:14px;border:1px solid var(--table-border);background:var(--card-bg);cursor:pointer}
 .table-wrap{max-width:900px}
 .table{width:100%;border-collapse:collapse}
-.table th,.table td{border:1px solid #cfcfcf;padding:10px;text-align:left}
+.table th,.table td{border:1px solid var(--table-border);padding:10px;text-align:left}
 .list{display:flex;flex-direction:column;gap:12px}
-.list-item{background:#fff;border:1px solid #cfcfcf;border-radius:10px;padding:14px;box-shadow:0 6px 12px rgba(0,0,0,0.08)}
-.muted{color:#666}
+.list-item{background:var(--card-bg);border:1px solid var(--table-border);border-radius:10px;padding:14px;box-shadow:0 6px 12px rgba(0,0,0,0.08)}
+.muted{color:var(--muted)}
 .tabs{display:flex;gap:16px;margin:12px 0;border-bottom:1px solid #e6e6e6}
 .tab{background:transparent;border:none;padding:10px 6px;cursor:pointer}
 .tab.active{color:#5b2fa6;border-bottom:3px solid #5b2fa6}
 .stack{display:flex;flex-direction:column;gap:12px;max-width:520px}
 
 /* Dark mode overrides */
-.dark .card-lite{background:#0b1220;border-color:#111827;box-shadow:none}
+/* legacy dark overrides are kept but CSS variables handle most colors now */
 .dark .card-graph{background:#071025;border-color:#111827}
-.dark .pill-action{background:#0b1220;border-color:#1f2937;color:#e6eef8}
-.dark .list-item{background:#071025;border-color:#111827;color:#e6eef8}
+.dark .pill-action{background:var(--card-lite-bg);border-color:#1f2937;color:var(--text)}
+.dark .list-item{background:var(--card-lite-bg);border-color:#111827;color:var(--text)}
 
-.card-compact{background:#fff;border:1px solid #e1e1e1;padding:8px;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.06)}
-.dark .card-compact{background:#071025;border-color:#111827;color:#e6eef8}
+.card-compact{background:var(--card-bg);border:1px solid var(--table-border);padding:8px;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.06)}
+.dark .card-compact{background:var(--card-lite-bg);border-color:#111827;color:var(--text)}
+
+/* Tailwind utility overrides for common gray/colored backgrounds so dark mode
+  works consistently for elements that still use Tailwind classes. We use
+  !important sparingly to ensure these override utility classes from Tailwind.
+*/
+.dark .bg-gray-50 { background-color: #071025 !important; }
+.dark .bg-gray-100 { background-color: #0b1220 !important; }
+.dark .bg-gray-200 { background-color: #111827 !important; }
+.dark .text-gray-800 { color: var(--text) !important; }
+.dark .text-gray-600 { color: var(--muted) !important; }
+.dark .text-gray-700 { color: var(--muted) !important; }
+.dark .bg-blue-50 { background-color: rgba(59,130,246,0.06) !important; }
+.dark .bg-green-50 { background-color: rgba(16,185,129,0.06) !important; }
+.dark .bg-purple-50 { background-color: rgba(139,92,246,0.06) !important; }
+.dark .bg-orange-50 { background-color: rgba(249,115,22,0.06) !important; }
+.dark .hover\:bg-gray-200:hover { background-color: #111827 !important; }
+.dark .hover\:bg-gray-100:hover { background-color: #0b1220 !important; }
+
+/* Table/text overrides */
+.dark .table th, .dark .table td { border-color: var(--table-border) !important; color: var(--text) !important; }
+
+/* Buttons and inputs that use custom classes */
+.dark .login-btn { color: var(--text) !important; border-color: #444 !important; }
+.dark .pill-input { background: #1f2937 !important; color: var(--text) !important; border-color:#374151 !important }
+
+/* Recharts tooltip/chart overrides for dark theme */
+.recharts-tooltip-wrapper { pointer-events: none; }
+.recharts-default-tooltip { background: #fff; color: #111 }
+.dark .recharts-default-tooltip { background: #0b1220 !important; color: var(--text) !important; border-color: var(--table-border) !important }
+.dark .recharts-cartesian-axis-tick-value { fill: var(--muted) !important }
+.dark .recharts-cartesian-grid line { stroke: rgba(255,255,255,0.03) !important }

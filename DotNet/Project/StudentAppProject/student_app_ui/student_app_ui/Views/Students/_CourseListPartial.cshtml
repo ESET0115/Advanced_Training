@@ -1,0 +1,16 @@
+﻿@model IEnumerable<dynamic>
+
+<ul class="list-group">
+    @foreach (var c in Model)
+    {
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <div>
+                <strong>@c.courseCode</strong> — @c.courseName
+                <div class="text-muted small">Department: @c.department, Semester: @c.semester</div>
+            </div>
+            <div>
+                <button class="btn btn-sm btn-outline-primary me-2" onclick="editCourse(@c.courseId)">Edit</button>
+            </div>
+        </li>
+    }
+</ul>

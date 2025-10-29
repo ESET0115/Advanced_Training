@@ -1,0 +1,466 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\data\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:data\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\collegeapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:collegeapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\collegeappproject\\collegeapp\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D5ADFD-7351-45E5-B3D0-33285EFCFE49}|CollegeApp.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Data\\SeedData.cs*",
+              "RelativeToolTip": "Data\\SeedData.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:16:39.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowHgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:29:25.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T06:29:13.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:28:47.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:28:24.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:28:00.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:27:22.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:27:08.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\CourseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CourseDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\CourseDto.cs",
+              "RelativeToolTip": "DTOs\\CourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:26:43.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\StudentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\StudentDto.cs",
+              "RelativeToolTip": "DTOs\\StudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:26:27.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\AuthResponseDto.cs",
+              "RelativeToolTip": "DTOs\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:26:10.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:25:54.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:25:37.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:24:56.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:24:39.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:24:21.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ICourseRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\ICourseRepository.cs",
+              "RelativeToolTip": "Repositories\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:23:01.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:21:37.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "Repositories\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:21:21.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:21:03.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:20:44.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:20:18.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:19:56.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:19:35.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UniversityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Data\\UniversityDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\UniversityDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\Data\\UniversityDbContext.cs",
+              "RelativeToolTip": "Data\\UniversityDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:19:10.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CollegeApp",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\CollegeApp.csproj",
+              "RelativeDocumentMoniker": "CollegeApp.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\CollegeAppProject\\CollegeApp\\CollegeApp.csproj",
+              "RelativeToolTip": "CollegeApp.csproj",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T06:13:54.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

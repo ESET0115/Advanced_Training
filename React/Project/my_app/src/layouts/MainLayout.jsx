@@ -1,12 +1,11 @@
 import React from 'react'
-import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import { useAuth } from '../context/AuthContext'
+import { NavLink, Outlet } from 'react-router-dom'
+import { useAuth } from '../hooks/useAuth'
 import Header from '../components/Header'
 import '../styles/Layout.css'
 
 export default function MainLayout() {
   const { user, logout } = useAuth()
-  const location = useLocation()
 
   const getNavigationItems = () => {
     const role = user?.role

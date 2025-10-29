@@ -1,5 +1,5 @@
 import React from 'react'
-import { useAuth } from '../../context/AuthContext'
+import { useAuth } from '../../hooks/useAuth'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
 
 const analyticsData = [
@@ -34,7 +34,7 @@ export default function ZoneDashboard() {
   <div className="card">
           <div className="flex items-center gap-4">
             <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center">
-              <span className="text-purple-600 text-2xl">📊</span>
+              <span className="text-purple-600 text-2xl">🤖</span>
             </div>
             <div>
               <div className="text-3xl font-bold text-gray-800">256</div>
@@ -95,10 +95,10 @@ export default function ZoneDashboard() {
               <Line 
                 type="monotone" 
                 dataKey="value" 
-                stroke="#8b5cf6" 
+                stroke="var(--accent)" 
                 strokeWidth={3}
-                dot={{ fill: '#8b5cf6', strokeWidth: 2, r: 4 }}
-                activeDot={{ r: 6, stroke: '#8b5cf6', strokeWidth: 2 }}
+                dot={{ fill: 'var(--accent)', strokeWidth: 2, r: 4 }}
+                activeDot={{ r: 6, stroke: 'var(--accent)', strokeWidth: 2 }}
               />
             </LineChart>
           </ResponsiveContainer>

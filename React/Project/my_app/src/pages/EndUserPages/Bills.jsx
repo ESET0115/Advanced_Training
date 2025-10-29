@@ -20,6 +20,7 @@ export default function Bills() {
             ))}
           </tbody>
         </table>
+        <p><b>Note:</b> All bills are generated on the first day of each month.</p>
       </div>
     </div>
   )

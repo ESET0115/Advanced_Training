@@ -1,0 +1,68 @@
+@EmployeeManagementAPI_HostAddress = http://localhost:5185
+
+GET {{EmployeeManagementAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+# For test purposes, we will use the following credentials:
+
+# Login to get token
+POST {{EmployeeManagementAPI_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "userName": "admin",
+  "password": "admin123"
+}
+
+> {%
+    client.global.set("auth_token", response.body.token);
+%}
+
+###
+
+# Get all employees
+GET {{EmployeeManagementAPI_HostAddress}}/api/employees
+Authorization: Bearer {{auth_token}}
+
+###
+
+# Get employee by ID
+GET {{EmployeeManagementAPI_HostAddress}}/api/employees/1
+Authorization: Bearer {{auth_token}}
+
+###
+
+# Create new employee
+POST {{EmployeeManagementAPI_HostAddress}}/api/employees
+Authorization: Bearer {{auth_token}}
+Content-Type: application/json
+
+{
+  "fullName": "John Doe",
+  "department": "IT",
+  "salary": 50000.00,
+  "email": "john.doe@company.com"
+}
+
+###
+
+# Update employee
+PUT {{EmployeeManagementAPI_HostAddress}}/api/employees/1
+Authorization: Bearer {{auth_token}}
+Content-Type: application/json
+
+{
+  "employeeId": 1,
+  "fullName": "John Doe Updated",
+  "department": "IT",
+  "salary": 55000.00,
+  "email": "john.doe.updated@company.com"
+}
+
+###
+
+# Delete employee
+DELETE {{EmployeeManagementAPI_HostAddress}}/api/employees/1
+Authorization: Bearer {{auth_token}}

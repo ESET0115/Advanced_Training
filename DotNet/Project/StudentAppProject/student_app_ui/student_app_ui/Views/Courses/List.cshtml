@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Courses and Enrolled Students";
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Courses & Enrolled Students</h2>
+        <a class="btn btn-secondary" href="javascript:history.back()">Back</a>
+    </div>
+
+    <div id="alertPlaceholder"></div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover" id="coursesTable">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Course ID</th>
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Students Enrolled</th>
+                </tr>
+            </thead>
+            <tbody id="coursesBody">
+                <tr><td colspan="4" class="text-center">Loading...</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    (function () {
+        async function showAlert(message, type = 'danger') {
+            const placeholder = document.getElementById('alertPlaceholder');
+            placeholder.innerHTML = `
+                <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>`;
+        }
+
+        async function loadCourses() {
+            const tbody = document.getElementById('coursesBody');
+            tbody.innerHTML = '<tr><td colspan="4" class="text-center">Loading...</td></tr>';
+
+            try {
+                    const token = localStorage.getItem('token') || localStorage.getItem('jwtToken');
+
+    const resp = await fetch('https://localhost:7030/api/Courses/with-students', {
+        method: 'GET',
+        headers: {
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json'
+        }
+    });
+
+                if (resp.status === 401) {
+                    tbody.innerHTML = '<tr><td colspan="4" class="text-center text-danger">You are not authorized. Please login.</td></tr>';
+                    return;
+                }
+
+                if (!resp.ok) {
+                    const text = await resp.text();
+                    await showAlert('Failed to load courses: ' + text);
+                    tbody.innerHTML = '<tr><td colspan="4" class="text-center text-danger">Failed to load.</td></tr>';
+                    return;
+                }
+
+                const data = await resp.json();
+
+                if (!Array.isArray(data) || data.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="4" class="text-center">No courses found.</td></tr>';
+                    return;
+                }
+
+                tbody.innerHTML = ''; // clear
+                data.forEach(course => {
+                    const students = (course.students || []);
+                    const studentsHtml = students.length > 0
+                        ? `<ul class="mb-0">${students.map(s => `<li>${escapeHtml(s.name)} &nbsp; <small class="text-muted">(${escapeHtml(s.email || '')}${s.phone ? ', ' + escapeHtml(s.phone) : ''}${s.gender ? ', ' + escapeHtml(s.gender) : ''})</small></li>`).join('')}</ul>`
+                        : '<em>No students enrolled</em>';
+
+                    const row = document.createElement('tr');
+
+                    row.innerHTML = `
+                        <td>${escapeHtml(course.courseId?.toString() ?? '')}</td>
+                        <td>${escapeHtml(course.courseName ?? course.title ?? '')}</td>
+                        <td>${escapeHtml(course.department ?? '')}</td>
+                        <td>${studentsHtml}</td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            } catch (err) {
+                console.error(err);
+                await showAlert('Unexpected error: ' + (err?.message || err));
+                const tbody = document.getElementById('coursesBody');
+                tbody.innerHTML = '<tr><td colspan="4" class="text-center text-danger">Error loading courses.</td></tr>';
+            }
+        }
+
+        // small helper to avoid XSS in innerHTML
+        function escapeHtml(unsafe) {
+            if (unsafe === null || unsafe === undefined) return '';
+            return String(unsafe)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        // load on DOM ready
+        document.addEventListener('DOMContentLoaded', loadCourses);
+    })();
+</script>
+
+<!-- Bootstrap JS for alert dismiss -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
