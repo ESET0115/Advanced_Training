@@ -1,0 +1,16 @@
+﻿@page "/page_one"
+@inherits first
+
+<h3>Page1</h3>
+<ul>
+    @foreach (var item in Employees)
+    {
+        <li>@item.Name - @item.Position</li>
+    }
+</ul>
+
+
+@code {
+    
+}
+

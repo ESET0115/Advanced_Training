@@ -5,6 +5,7 @@ export default function Logs() {
     <div>
       <h2 className="title">Logs</h2>
       <div className="card-lite">Recent activity will appear here.</div>
+      
     </div>
   )
 }

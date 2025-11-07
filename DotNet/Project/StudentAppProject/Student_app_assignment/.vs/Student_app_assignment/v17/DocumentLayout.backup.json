@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Migrations\\20251029093031_firstMigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Student_app_assignment\\Migrations\\20251029093031_firstMigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\EmployeeManagementAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Migrations\\20251029092037_firstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Student_app_assignment\\Migrations\\20251029092037_firstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,20 +42,12 @@
       "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\student_app_assignment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\student_app_assignment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\repositories\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,12 +62,16 @@
       "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\repositories\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\repositories\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\migrations\\20251029093031_firstmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\migrations\\20251029093031_firstmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\studentappproject\\student_app_assignment\\student_app_assignment\\migrations\\20251029092037_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A14515-8C3C-46D9-9648-54510B5B44BF}|Student_app_assignment\\Student_app_assignment.csproj|solutionrelative:student_app_assignment\\migrations\\20251029092037_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,7 +81,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -96,12 +96,8 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "20251029093031_firstMigration1.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Migrations\\20251029093031_firstMigration1.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Migrations\\20251029093031_firstMigration1.cs",
@@ -109,12 +105,11 @@
               "RelativeToolTip": "Student_app_assignment\\Migrations\\20251029093031_firstMigration1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:30:31.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T09:30:31.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "20251029092037_firstMigration.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Migrations\\20251029092037_firstMigration.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Migrations\\20251029092037_firstMigration.cs",
@@ -122,25 +117,23 @@
               "RelativeToolTip": "Student_app_assignment\\Migrations\\20251029092037_firstMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:20:38.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T09:20:38.02Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Student_app_assignment",
+              "Title": "Student_app_assignment.csproj",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Student_app_assignment.csproj",
               "RelativeDocumentMoniker": "Student_app_assignment\\Student_app_assignment.csproj",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Student_app_assignment.csproj",
               "RelativeToolTip": "Student_app_assignment\\Student_app_assignment.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-29T08:55:53.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:55:53.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Repositories\\UserRepository.cs",
@@ -148,12 +141,11 @@
               "RelativeToolTip": "Student_app_assignment\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:53:29.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:53:29.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Repositories\\Interfaces\\IUserRepository.cs",
@@ -161,12 +153,11 @@
               "RelativeToolTip": "Student_app_assignment\\Repositories\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:52:36.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:52:36.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Models\\Users.cs",
@@ -174,25 +165,23 @@
               "RelativeToolTip": "Student_app_assignment\\Models\\Users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:51:23.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:51:23.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\appsettings.json",
               "RelativeDocumentMoniker": "Student_app_assignment\\appsettings.json",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\appsettings.json*",
-              "RelativeToolTip": "Student_app_assignment\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\appsettings.json",
+              "RelativeToolTip": "Student_app_assignment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-28T09:42:16.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T09:42:16.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\EmployeeManagementAPI\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\EmployeeManagementAPI\\appsettings.json",
@@ -200,25 +189,23 @@
               "RelativeToolTip": "..\\..\\EmployeeManagementAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-29T09:22:38.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T09:22:38.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "CourseRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Repositories\\CourseRepository.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Repositories\\CourseRepository.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Repositories\\CourseRepository.cs",
               "RelativeToolTip": "Student_app_assignment\\Repositories\\CourseRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:02:28.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:02:28.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Controllers\\AuthController.cs",
@@ -226,25 +213,23 @@
               "RelativeToolTip": "Student_app_assignment\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:56:04.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:56:04.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Program.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Program.cs",
               "RelativeToolTip": "Student_app_assignment\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwBAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:58:48.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T09:58:48.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Models\\AppDbContext.cs",
@@ -252,12 +237,11 @@
               "RelativeToolTip": "Student_app_assignment\\Models\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:57:24.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T09:57:24.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Models\\ErrorViewModel.cs",
@@ -265,8 +249,7 @@
               "RelativeToolTip": "Student_app_assignment\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:57:15.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T09:57:15.106Z"
             },
             {
               "$type": "Document",
@@ -278,12 +261,11 @@
               "RelativeToolTip": "Student_app_assignment\\Controllers\\CoursesController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAxwDMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:06:56.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:06:56.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "studentController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Controllers\\studentController.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Controllers\\studentController.cs",
@@ -291,25 +273,24 @@
               "RelativeToolTip": "Student_app_assignment\\Controllers\\studentController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAgwD4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:07:45.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:07:45.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Repositories\\StudentRepository.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Repositories\\StudentRepository.cs",
               "RelativeToolTip": "Student_app_assignment\\Repositories\\StudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T10:06:14.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Repositories\\Interfaces\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Repositories\\Interfaces\\IStudentRepository.cs",
@@ -317,12 +298,11 @@
               "RelativeToolTip": "Student_app_assignment\\Repositories\\Interfaces\\IStudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:00:54.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:00:54.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "ICourseRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\StudentAppProject\\Student_app_assignment\\Student_app_assignment\\Repositories\\Interfaces\\ICourseRepository.cs",
               "RelativeDocumentMoniker": "Student_app_assignment\\Repositories\\Interfaces\\ICourseRepository.cs",
@@ -330,8 +310,11 @@
               "RelativeToolTip": "Student_app_assignment\\Repositories\\Interfaces\\ICourseRepository.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:00:29.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:00:29.194Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

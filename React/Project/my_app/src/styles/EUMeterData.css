@@ -1,0 +1,72 @@
+.meterdata-container {
+  padding: 10px 0;
+  color: var(--text);
+}
+
+/* Title */
+.md-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text);
+}
+
+/* Buttons */
+.md-range-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.md-btn {
+  padding: 8px 18px;
+  border-radius: 10px;
+  border: 1px solid var(--table-border);
+  background: var(--card-bg);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  color: var(--text);
+}
+
+.md-btn.active {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.md-btn:hover {
+  opacity: 0.85;
+}
+
+/* Chart wrapper */
+.md-chart-wrapper {
+  background: var(--card-bg);
+  border: 1px solid var(--table-border);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+/* Table */
+.md-table-wrapper {
+  max-width: 100%;
+}
+
+.md-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 15px;
+}
+
+.md-table th,
+.md-table td {
+  border: 1px solid var(--table-border);
+  padding: 12px;
+}
+
+.md-table th {
+  font-weight: 700;
+  background: var(--card-lite-bg);
+}

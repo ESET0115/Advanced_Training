@@ -47,39 +47,39 @@ export default function MainLayout() {
 
   const navigationItems = getNavigationItems()
 
-  const handleLogout = () => {
-    logout()
-  }
-
   return (
     <div className="app-shell">
-      <Header />
+      <div className="app-header-wrapper">
+        <Header />
+      </div>
+
       <div className="app-body">
         <aside className="sidebar">
           <div className="brand">MDMS</div>
+
+          <div className="sidebar-section-title">Menu</div>
+
           <nav className="menu">
             {navigationItems.map((item) => (
               <NavLink
                 key={item.path}
                 to={item.path}
-                end={item.path.endsWith('/dashboard') || item.path === '/end-user' || item.path === '/zone-management' || item.path === '/enterprise'}
                 className={({ isActive }) => `menu-item${isActive ? ' active' : ''}`}
               >
-                <span className="menu-icon">{item.icon}</span>
                 {item.label}
               </NavLink>
             ))}
           </nav>
+
           <div className="sidebar-footer">
             <div className="user-info">
               <span className="user-name">{user?.name}</span>
               <span className="user-role">{user?.role?.replace('_', ' ').toUpperCase()}</span>
             </div>
-            <button onClick={handleLogout} className="logout-btn">
-              Logout
-            </button>
+            <button onClick={logout} className="logout-btn">Logout</button>
           </div>
         </aside>
+
         <main className="content">
           <Outlet />
         </main>
@@ -87,6 +87,4 @@ export default function MainLayout() {
     </div>
   )
 }
-
-
 
