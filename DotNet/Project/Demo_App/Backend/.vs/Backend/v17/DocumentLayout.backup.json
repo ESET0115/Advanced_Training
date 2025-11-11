@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo_app\\backend\\models\\testpage;.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|solutionrelative:models\\testpage;.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo_app\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo_app\\backend\\controllers\\democontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|solutionrelative:controllers\\democontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo_app\\backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|solutionrelative:backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo_app\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo_app\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D46C7CDE-BB96-4A74-9DCA-AFB59A38519C}|Backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 146,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "demoContoller.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Controllers\\demoContoller.cs",
+              "RelativeDocumentMoniker": "Controllers\\demoContoller.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Controllers\\demoContoller.cs",
+              "RelativeToolTip": "Controllers\\demoContoller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T09:17:11.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestPage;.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Models\\TestPage;.cs",
+              "RelativeDocumentMoniker": "Models\\TestPage;.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Models\\TestPage;.cs",
+              "RelativeToolTip": "Models\\TestPage;.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T09:12:18.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAawA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T09:05:52.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Backend.http",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Backend.http",
+              "RelativeDocumentMoniker": "Backend.http",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Backend.http",
+              "RelativeToolTip": "Backend.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-10T08:55:27.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-10T08:54:05.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Backend",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\Demo_App\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T08:50:51.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

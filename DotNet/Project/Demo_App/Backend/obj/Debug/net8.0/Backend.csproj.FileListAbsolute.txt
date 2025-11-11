@@ -1,0 +1,9 @@
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\Demo_App\Backend\obj\Debug\net8.0\Backend.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\Demo_App\Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\Demo_App\Backend\obj\Debug\net8.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\Demo_App\Backend\obj\Debug\net8.0\Backend.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\Demo_App\Backend\obj\Debug\net8.0\Backend.AssemblyInfo.cs
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\Demo_App\Backend\obj\Debug\net8.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\Demo_App\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\Demo_App\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\Workspace\Training\Advanced\DotNet\Project\Demo_App\Backend\obj\Debug\net8.0\Backend.sourcelink.json

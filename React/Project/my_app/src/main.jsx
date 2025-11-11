@@ -1,11 +1,11 @@
-import React from 'react'
-import { StrictMode } from 'react'
+import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
 import { ThemeProvider } from './context/ThemeContext'
 import { AuthProvider } from './context/AuthContext'
+import './i18n'  // ✅ ensures i18n is initialized before rendering
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,5 +16,5 @@ createRoot(document.getElementById('root')).render(
         </BrowserRouter>
       </AuthProvider>
     </ThemeProvider>
-  </StrictMode>,
+  </StrictMode>
 )

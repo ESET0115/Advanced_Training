@@ -1,67 +1,137 @@
-// import React from 'react'
-// import { useAuth } from '../hooks/useAuth'
-// import { useTheme } from '../context/ThemeContext'
+
+// import React, { useEffect, useState } from "react";
+// import { useAuth } from "../hooks/useAuth";
+// import { useTranslation } from "react-i18next"; // ✅ import i18n hook
+// import { changeLanguage } from "../i18n"; // ✅ function to change language
 
 // export default function Header() {
-//   const { user } = useAuth()
-//   const { theme, toggle } = useTheme()
-//   const dark = theme === 'dark'
+//   const { user } = useAuth();
+//   const { t, i18n } = useTranslation();
+//   const [isDark, setIsDark] = useState(false);
+//   const [showLangMenu, setShowLangMenu] = useState(false);
+
+//   // Load theme from localStorage
+//   useEffect(() => {
+//     const savedTheme = localStorage.getItem("theme") || "light";
+//     document.documentElement.classList.toggle("dark", savedTheme === "dark");
+//     setIsDark(savedTheme === "dark");
+//   }, []);
+
+//   // Toggle theme
+//   const toggleTheme = () => {
+//     const newTheme = isDark ? "light" : "dark";
+//     document.documentElement.classList.toggle("dark", !isDark);
+//     localStorage.setItem("theme", newTheme);
+//     setIsDark(!isDark);
+//   };
+
+//   // Change language
+//   const handleLanguageChange = (lng) => {
+//     i18n.changeLanguage(lng);
+//     changeLanguage(lng);
+//     setShowLangMenu(false);
+//   };
 
 //   return (
-//     <header className="bg-[#d9d9d9] dark:bg-[#5b5b5b] h-14 flex items-center justify-between px-4 text-sm text-black dark:text-white shadow-[inset_0_-1px_0_rgba(0,0,0,0.05)]">
-//       <div className="font-bold text-xl">MDMS</div>
-//       <div className="flex items-center gap-4">
+//     <header className="header-bar flex justify-between items-center px-4 py-2 bg-white dark:bg-gray-800 shadow-md">
+//       {/* Logo */}
+//       <div className="header-brand text-xl font-bold text-gray-800 dark:text-white">
+//         {t("appTitle")}
+//       </div>
+
+//       <div className="header-actions flex items-center space-x-4">
 //         {/* Notifications */}
-//         <button className="relative p-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-full">
-//           <span className="text-lg">🔔</span>
-//           <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+//         <button
+//           className="relative p-2 rounded-xl bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600"
+//           aria-label="Notifications"
+//         >
+//           <span className="material-icons text-gray-700 dark:text-gray-200">
+//             notifications
+//           </span>
+//           <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">
 //             3
 //           </span>
 //         </button>
-        
-//         {/* Theme Toggle (uses global ThemeContext) */}
+
+//         {/* Theme toggle */}
 //         <button
-//           type="button"
-//           aria-label="toggle theme"
-//           onClick={toggle}
-//           className={`relative rounded-full border border-black/70 dark:border-white/60 transition-colors w-[14vw] max-w-[56px] min-w-[44px] h-[8vw] max-h-[32px] min-h-[28px] ${dark ? 'bg-purple-300/70' : 'bg-[#e6dff0]'}`}
+//           className="p-2 rounded-xl bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600"
+//           onClick={toggleTheme}
+//           aria-label={t("lightMode")}
 //         >
-//           <span className={`absolute top-1/2 -translate-y-1/2 rounded-full border border-black/60 dark:border-white/60 bg-white dark:bg-zinc-700 flex items-center justify-center transition-all size-knob ${dark ? 'right-1' : 'left-1'}`}>
-//             <span className="text-[10px]">{dark ? '🌙' : '☀️'}</span>
+//           <span className="material-icons text-gray-700 dark:text-gray-200">
+//             {isDark ? "light_mode" : "dark_mode"}
 //           </span>
 //         </button>
-        
-//         {/* Language Selector */}
-//         <div className="cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 px-2 py-1 rounded">en ▾</div>
-        
-//         {/* User Profile */}
-//         <div className="flex items-center gap-2 cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 px-2 py-1 rounded">
-//           <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center text-white text-sm font-semibold">
-//             {user?.name?.charAt(0) || 'U'}
+
+//         {/* Language switcher */}
+//         <div className="relative">
+//           <button
+//             className="flex items-center p-2 rounded-xl bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600"
+//             onClick={() => setShowLangMenu(!showLangMenu)}
+//           >
+//             <span className="text-gray-800 dark:text-gray-200 uppercase text-sm font-medium">
+//               {i18n.language}
+//             </span>
+//             <span className="material-icons text-gray-600 dark:text-gray-300 text-sm ml-1">
+//               expand_more
+//             </span>
+//           </button>
+
+//           {showLangMenu && (
+//             <div className="absolute right-0 mt-2 w-28 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg">
+//               <button
+//                 onClick={() => handleLanguageChange("en")}
+//                 className="block w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600"
+//               >
+//                 English
+//               </button>
+//               <button
+//                 onClick={() => handleLanguageChange("hi")}
+//                 className="block w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600"
+//               >
+//                 हिन्दी
+//               </button>
+//             </div>
+//           )}
+//         </div>
+
+//         {/* Profile */}
+//         <div className="flex items-center space-x-2">
+//           <div className="avatar w-8 h-8 flex items-center justify-center rounded-full bg-purple-500 text-white font-semibold">
+//             {user?.name?.charAt(0)?.toUpperCase() || "U"}
 //           </div>
-//           <span className="hidden md:block text-sm">{user?.name || 'User'}</span>
+//           <span className="profile-name text-gray-800 dark:text-gray-100 font-medium">
+//             {user?.name || t("endUser")}
+//           </span>
 //         </div>
 //       </div>
 //     </header>
-//   )
+//   );
 // }
+
+
+
+
 
 
 import React, { useEffect, useState } from "react";
 import { useAuth } from "../hooks/useAuth";
+import { useTranslation } from "react-i18next";
+import { changeLanguage } from "../i18n";
 
 export default function Header() {
   const { user } = useAuth();
+  const { t, i18n } = useTranslation();
   const [isDark, setIsDark] = useState(false);
+  const [showLangMenu, setShowLangMenu] = useState(false);
 
-  // Load theme from localStorage
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") || "light";
     document.documentElement.classList.toggle("dark", savedTheme === "dark");
     setIsDark(savedTheme === "dark");
   }, []);
 
-  // Toggle theme
   const toggleTheme = () => {
     const newTheme = isDark ? "light" : "dark";
     document.documentElement.classList.toggle("dark", !isDark);
@@ -69,43 +139,84 @@ export default function Header() {
     setIsDark(!isDark);
   };
 
-  return (
-    <header className="header-bar">
-      {/* Logo */}
-      <div className="header-brand">MDMS</div>
+  const handleLanguageChange = (lng) => {
+    changeLanguage(lng);
+    setShowLangMenu(false);
+  };
 
-      <div className="header-actions">
+  return (
+    <header className="header-bar flex justify-between items-center px-4 py-2 bg-white dark:bg-gray-800 shadow-md">
+      {/* ✅ Brand title fixed */}
+      <div className="header-brand text-xl font-bold text-gray-800 dark:text-white">
+        MDMS
+      </div>
+
+      <div className="header-actions flex items-center space-x-4">
         {/* Notifications */}
-        <button className="header-icon relative" aria-label="Notifications">
-          <span className="material-icons">notifications</span>
-          <span className="badge">3</span>
+        <button
+          className="relative p-2 rounded-xl bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600"
+          aria-label="Notifications"
+        >
+          <span className="material-icons text-gray-700 dark:text-gray-200">
+            notifications
+          </span>
+          <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">
+            3
+          </span>
         </button>
 
         {/* Theme toggle */}
         <button
-          className="header-icon"
+          className="p-2 rounded-xl bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600"
           onClick={toggleTheme}
-          aria-label="Toggle theme"
         >
-          <span className="material-icons">
+          <span className="material-icons text-gray-700 dark:text-gray-200">
             {isDark ? "light_mode" : "dark_mode"}
           </span>
         </button>
 
-        {/* Language */}
-        <div className="lang-switch">
-          en <span className="material-icons text-sm">expand_more</span>
+        {/* Language switcher */}
+        <div className="relative">
+          <button
+            className="flex items-center p-2 rounded-xl bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600"
+            onClick={() => setShowLangMenu(!showLangMenu)}
+          >
+            <span className="text-gray-800 dark:text-gray-200 uppercase text-sm font-medium">
+              {i18n.language}
+            </span>
+            <span className="material-icons text-gray-600 dark:text-gray-300 text-sm ml-1">
+              expand_more
+            </span>
+          </button>
+
+          {showLangMenu && (
+            <div className="absolute right-0 mt-2 w-28 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg">
+              <button
+                onClick={() => handleLanguageChange("en")}
+                className="block w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600"
+              >
+                English
+              </button>
+              <button
+                onClick={() => handleLanguageChange("hi")}
+                className="block w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600"
+              >
+                हिन्दी
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Profile */}
-        <div className="profile">
-          <div className="avatar">
+        <div className="flex items-center space-x-2">
+          <div className="avatar w-8 h-8 flex items-center justify-center rounded-full bg-purple-500 text-white font-semibold">
             {user?.name?.charAt(0)?.toUpperCase() || "U"}
           </div>
-          <span className="profile-name">{user?.name || "User"}</span>
+          <span className="profile-name text-gray-800 dark:text-gray-100 font-medium">
+            {user?.name || t("roleEndUser")}
+          </span>
         </div>
       </div>
     </header>
   );
 }
-

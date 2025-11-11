@@ -132,7 +132,7 @@
 .user-role {
   font-size: 11px;
   color: var(--muted);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 /* Logout Button */

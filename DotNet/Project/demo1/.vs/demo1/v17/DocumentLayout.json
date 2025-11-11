@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo1\\controllers\\metercsvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|solutionrelative:controllers\\metercsvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo1\\dtos\\meteruploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|solutionrelative:dtos\\meteruploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo1\\services\\interfaces\\imetercsvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|solutionrelative:services\\interfaces\\imetercsvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo1\\services\\metercsvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|solutionrelative:services\\metercsvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|c:\\users\\hp\\desktop\\workspace\\training\\advanced\\dotnet\\project\\demo1\\demo1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D6A9AFF-5E4B-4F37-8BC7-EC7B23F62621}|demo1.csproj|solutionrelative:demo1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeterUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\DTOs\\MeterUploadDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MeterUploadDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\DTOs\\MeterUploadDto.cs*",
+              "RelativeToolTip": "DTOs\\MeterUploadDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:33:30.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMeterCsvService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\Services\\Interfaces\\IMeterCsvService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMeterCsvService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\Services\\Interfaces\\IMeterCsvService.cs*",
+              "RelativeToolTip": "Services\\Interfaces\\IMeterCsvService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:32:58.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MeterCsvService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\Services\\MeterCsvService.cs",
+              "RelativeDocumentMoniker": "Services\\MeterCsvService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\Services\\MeterCsvService.cs*",
+              "RelativeToolTip": "Services\\MeterCsvService.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:32:18.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "demo1",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\demo1.csproj",
+              "RelativeDocumentMoniker": "demo1.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\demo1.csproj*",
+              "RelativeToolTip": "demo1.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T04:31:50.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeterCsvController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\Controllers\\MeterCsvController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MeterCsvController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Workspace\\Training\\Advanced\\DotNet\\Project\\demo1\\Controllers\\MeterCsvController.cs*",
+              "RelativeToolTip": "Controllers\\MeterCsvController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:29:58.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
