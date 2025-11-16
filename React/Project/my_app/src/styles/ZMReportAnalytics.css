@@ -1,0 +1,158 @@
+/* Main Wrapper */
+.ra-wrapper {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Title */
+.ra-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.ra-subtitle {
+  margin-top: -12px;
+  opacity: 0.7;
+}
+
+/* Card Base */
+.ra-card {
+  background: var(--card-bg);
+  padding: 22px;
+  border-radius: 16px;
+  border: 1px solid var(--table-border);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+/* -------------------
+   Line Chart Styling
+--------------------- */
+.ra-linechart {
+  margin-top: -10px;
+}
+
+/* -------------------
+   Compare Section
+--------------------- */
+
+.compare-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.compare-controls-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.filter-input.improved {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--table-border);
+  background: var(--card-bg);
+  width: 200px;
+}
+
+.filter-input.improved:focus {
+  outline: none;
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2);
+}
+
+.year-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.year-nav button {
+  padding: 6px 14px;
+  border-radius: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--table-border);
+  cursor: pointer;
+}
+
+.year-nav span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Chart container */
+.chart-container {
+  margin-top: 20px;
+  height: 330px;
+}
+
+/* -------------------
+        TABLE
+--------------------- */
+.ra-table-section {
+  background: var(--card-bg);
+  padding: 22px;
+  border-radius: 16px;
+  border: 1px solid var(--table-border);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.ra-table {
+  width: 100%;
+  margin-top: 14px;
+  border-collapse: collapse;
+}
+
+.ra-table th {
+  text-align: left;
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--table-border);
+  font-weight: 600;
+}
+
+.ra-table td {
+  padding: 10px;
+  border-bottom: 1px solid var(--table-border);
+}
+
+/* Export buttons */
+.ra-export-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.ra-export-buttons button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--table-border);
+  cursor: pointer;
+}
+
+/* Pagination */
+.ra-pagination {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  align-items: center;
+}
+
+.ra-pagination button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--table-border);
+  background: var(--card-bg);
+  cursor: pointer;
+}
+
+.ra-pagination button.active {
+  background: #8b5cf6;
+  color: white;
+  border-color: #8b5cf6;
+}
+
+.ra-pagination span {
+  opacity: 0.5;
+}

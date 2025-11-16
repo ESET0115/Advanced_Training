@@ -1,221 +1,324 @@
-/* PAGE WRAPPER */
-.um-container {
-  padding: 24px;
+/* -----------------------------------------------------
+   PAGE LAYOUT
+----------------------------------------------------- */
+.page-container {
+  padding: 24px 32px;
+  width: 100%;
   color: var(--text);
 }
 
-/* HEADER */
-.um-header {
+.page-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* -----------------------------------------------------
+   FILTERS ROW
+----------------------------------------------------- */
+.filters-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+/* SORT DROPDOWN */
+.sort-wrapper {
+  position: relative;
+}
+
+.sort-btn {
+  background: var(--card-bg);
+  border: 1px solid var(--table-border);
+  padding: 10px 14px;
+  border-radius: 8px;
+  min-width: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 22px;
+  cursor: pointer;
 }
 
-.um-invite-btn {
-  padding: 8px 16px;
-  background: var(--accent);
-  color: #fff;
+.sort-dropdown {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  background: var(--card-bg);
+  border: 1px solid var(--table-border);
   border-radius: 8px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+  z-index: 10;
+}
+
+.sort-option {
+  width: 100%;
+  padding: 10px 14px;
+  text-align: left;
+  background: none;
   border: none;
   cursor: pointer;
 }
 
-/* FILTER + SEARCH */
-.um-filter-row {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 18px;
+.sort-option:hover {
+  background: rgba(0,0,0,0.04);
 }
 
-.um-filter-box {
+/* -----------------------------------------------------
+   SEARCH BAR
+----------------------------------------------------- */
+.search-wrapper {
   position: relative;
 }
 
-.um-filter-btn {
+.search-input {
+  background: var(--card-bg);
+  border: 1px solid var(--table-border);
   padding: 10px 14px;
-  background: var(--card-bg);
-  border: 1px solid var(--table-border);
   border-radius: 8px;
-  cursor: pointer;
-  min-width: 110px;
+  width: 240px;
 }
 
-.um-dropdown {
+.search-clear {
   position: absolute;
-  top: 45px;
+  right: 10px;
+  top: 11px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.search-dropdown {
+  position: absolute;
   background: var(--card-bg);
+  width: 240px;
   border: 1px solid var(--table-border);
-  width: 140px;
   border-radius: 8px;
+  top: 46px;
   z-index: 10;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.um-dropdown-item {
-  padding: 10px;
-  cursor: pointer;
-}
-.um-dropdown-item:hover {
-  background: rgba(139,92,246,0.15);
-}
-
-/* SEARCH BOX */
-.um-search-box {
-  position: relative;
-  flex: 1;
-}
-
-.um-search-input {
+.search-suggestion {
   width: 100%;
-  padding: 10px 38px;
-  border: 1px solid var(--table-border);
-  border-radius: 8px;
-  background: var(--card-bg);
-  color: var(--text);
-}
-
-.um-search-icon {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  opacity: 0.7;
-}
-
-.um-clear-btn {
-  position: absolute;
-  top: 12px;
-  right: 12px;
+  padding: 10px 14px;
+  background: none;
+  text-align: left;
   cursor: pointer;
+  border: 0;
 }
 
-/* TABLE */
-.um-table-wrapper {
+.search-suggestion:hover {
+  background: rgba(0,0,0,0.04);
+}
+
+/* -----------------------------------------------------
+   INVITE BUTTON
+----------------------------------------------------- */
+.invite-btn {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #000;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.invite-btn:hover {
+  background: #222;
+}
+
+/* -----------------------------------------------------
+   TABLE STYLING
+----------------------------------------------------- */
+.table-wrapper {
+  overflow-x: auto;
   border-radius: 10px;
-  overflow: hidden;
   border: 1px solid var(--table-border);
   background: var(--card-bg);
 }
 
-.um-table {
+.table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.um-table th,
-.um-table td {
-  padding: 12px 14px;
+.table th {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 14px;
   border-bottom: 1px solid var(--table-border);
-  text-align: left;
+  background: var(--card-bg);
 }
 
-/* ACTIONS */
-.um-actions {
+.table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--table-border);
+}
+
+.status-deact {
+  color: #d40000;
+  font-weight: 600;
+}
+
+/* More Actions column */
+.action-cell {
   position: relative;
 }
 
-.um-more-icon {
+.action-icon {
   cursor: pointer;
+  opacity: 0.7;
 }
 
-.um-action-menu {
+.action-icon:hover {
+  opacity: 1;
+}
+
+/* ACTION MENU DROPDOWN */
+.action-dropdown {
   position: absolute;
   right: 0;
   top: 30px;
-  width: 140px;
+  width: 150px;
   background: var(--card-bg);
   border: 1px solid var(--table-border);
   border-radius: 8px;
-  padding: 6px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
   z-index: 20;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.08);
 }
 
-.um-action-menu p {
-  padding: 8px;
+.action-dropdown button {
+  width: 100%;
+  padding: 10px 14px;
+  border: 0;
+  background: none;
+  text-align: left;
   cursor: pointer;
 }
-.um-action-menu p:hover {
-  background: rgba(139,92,246,0.15);
+
+.action-dropdown button:hover {
+  background: rgba(0,0,0,0.04);
 }
 
-/* PAGINATION */
-.um-pagination {
-  margin-top: 20px;
+/* -----------------------------------------------------
+   MODAL OVERLAY
+----------------------------------------------------- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  background: rgba(0,0,0,0.4);
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 8px;
+  z-index: 300;
 }
 
-.um-page-btn,
-.um-page-number {
-  padding: 8px 12px;
-  border: 1px solid var(--table-border);
+/* -----------------------------------------------------
+   MODAL BOX
+----------------------------------------------------- */
+.modal {
+  width: 430px;
   background: var(--card-bg);
-  border-radius: 6px;
-  cursor: pointer;
+  border-radius: 14px;
+  padding: 26px 30px;
+  position: relative;
+  border: 1px solid var(--table-border);
 }
 
-.um-page-number.active {
-  background: var(--accent);
-  color: white;
+.modal h2 {
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 
-.um-ellipsis {
-  padding: 0 6px;
+.modal-sub {
+  font-size: 14px;
+  margin-bottom: 16px;
   color: var(--muted);
 }
 
-/* MODAL */
-.um-modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.4);
+.modal-close {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.modal-close:hover {
+  opacity: 1;
+}
+
+.modal-body {
+  margin-top: 10px;
+}
+
+/* -----------------------------------------------------
+   MODAL INPUTS
+----------------------------------------------------- */
+.modal-field {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 50;
+  flex-direction: column;
+  margin-bottom: 16px;
 }
 
-.um-modal {
-  width: 360px;
-  background: var(--card-bg);
-  padding: 24px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+.modal-field label {
+  font-size: 12px;
+  margin-bottom: 4px;
+  opacity: 0.7;
 }
 
-.um-input {
-  width: 100%;
-  margin: 6px 0 18px;
-  padding: 10px;
-  background: var(--card-bg);
+.modal-input {
   border: 1px solid var(--table-border);
+  padding: 10px 12px;
   border-radius: 8px;
+  background: var(--card-bg);
   color: var(--text);
 }
 
-.um-modal-actions {
+/* -----------------------------------------------------
+   MODAL SUBMIT BUTTON
+----------------------------------------------------- */
+.modal-submit {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 999px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.modal-submit:hover {
+  background: #222;
+}
+
+/* -----------------------------------------------------
+   VIEW DETAILS ROW
+----------------------------------------------------- */
+.detail-row {
   display: flex;
   justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--table-border);
 }
 
-.um-cancel-btn {
-  padding: 8px 16px;
-  border: 1px solid var(--table-border);
-  background: var(--card-bg);
-  border-radius: 8px;
-  cursor: pointer;
+.detail-label {
+  font-weight: 500;
+  opacity: 0.8;
 }
 
-.um-submit-btn {
-  padding: 8px 16px;
-  background: var(--accent);
-  color: white;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
+.detail-value {
+  font-weight: 600;
 }
