@@ -1,0 +1,221 @@
+/* PAGE WRAPPER */
+.um-container {
+  padding: 24px;
+  color: var(--text);
+}
+
+/* HEADER */
+.um-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.um-invite-btn {
+  padding: 8px 16px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+/* FILTER + SEARCH */
+.um-filter-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.um-filter-box {
+  position: relative;
+}
+
+.um-filter-btn {
+  padding: 10px 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--table-border);
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 110px;
+}
+
+.um-dropdown {
+  position: absolute;
+  top: 45px;
+  background: var(--card-bg);
+  border: 1px solid var(--table-border);
+  width: 140px;
+  border-radius: 8px;
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.um-dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+.um-dropdown-item:hover {
+  background: rgba(139,92,246,0.15);
+}
+
+/* SEARCH BOX */
+.um-search-box {
+  position: relative;
+  flex: 1;
+}
+
+.um-search-input {
+  width: 100%;
+  padding: 10px 38px;
+  border: 1px solid var(--table-border);
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text);
+}
+
+.um-search-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  opacity: 0.7;
+}
+
+.um-clear-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+
+/* TABLE */
+.um-table-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--table-border);
+  background: var(--card-bg);
+}
+
+.um-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.um-table th,
+.um-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--table-border);
+  text-align: left;
+}
+
+/* ACTIONS */
+.um-actions {
+  position: relative;
+}
+
+.um-more-icon {
+  cursor: pointer;
+}
+
+.um-action-menu {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 140px;
+  background: var(--card-bg);
+  border: 1px solid var(--table-border);
+  border-radius: 8px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  z-index: 20;
+}
+
+.um-action-menu p {
+  padding: 8px;
+  cursor: pointer;
+}
+.um-action-menu p:hover {
+  background: rgba(139,92,246,0.15);
+}
+
+/* PAGINATION */
+.um-pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.um-page-btn,
+.um-page-number {
+  padding: 8px 12px;
+  border: 1px solid var(--table-border);
+  background: var(--card-bg);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.um-page-number.active {
+  background: var(--accent);
+  color: white;
+}
+
+.um-ellipsis {
+  padding: 0 6px;
+  color: var(--muted);
+}
+
+/* MODAL */
+.um-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.um-modal {
+  width: 360px;
+  background: var(--card-bg);
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.um-input {
+  width: 100%;
+  margin: 6px 0 18px;
+  padding: 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--table-border);
+  border-radius: 8px;
+  color: var(--text);
+}
+
+.um-modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.um-cancel-btn {
+  padding: 8px 16px;
+  border: 1px solid var(--table-border);
+  background: var(--card-bg);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.um-submit-btn {
+  padding: 8px 16px;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
