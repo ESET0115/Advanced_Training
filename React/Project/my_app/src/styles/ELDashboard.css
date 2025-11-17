@@ -1,0 +1,113 @@
+/* src/pages/EnterpriseLevelPages/EnterpriseDashboard.css */
+
+/* page wrapper */
+.ed-wrapper {
+  padding: 22px 28px;
+  min-height: calc(100vh - 60px);
+}
+
+/* title */
+.ed-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: var(--text, #111827);
+}
+
+/* stats row - four cards side by side */
+.ed-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 26px;
+}
+
+.stat-card {
+  background: var(--card-bg, #fff);
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid var(--table-border, #eee);
+  box-shadow: 0 6px 18px rgba(11,14,20,0.04);
+  min-height: 96px;
+}
+
+/* small decorative icon block */
+.stat-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: rgba(139, 92, 246, 0.06);
+}
+.stat-icon-inner {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #f3efff, #d9c9ff);
+}
+
+/* stat text */
+.stat-body { flex: 1 }
+.stat-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text, #111827);
+}
+.stat-label {
+  font-size: 13px;
+  color: var(--muted, #6b7280);
+  margin-top: 6px;
+}
+
+/* Map + alerts layout: map full-width on left, alerts column at right */
+.ed-map-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  align-items: start;
+  margin-top: 18px;
+}
+
+/* map column */
+.ed-map-col .section-subtitle {
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* alerts column */
+.ed-alerts-col .section-subtitle {
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* alerts list */
+.alerts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.alert-item {
+  background: var(--card-bg, #fff);
+  border-radius: 8px;
+  padding: 14px;
+  border: 1px solid var(--table-border, #eee);
+  box-shadow: 0 8px 18px rgba(11,14,20,0.04);
+}
+.alert-desc {
+  color: var(--muted, #6b7280);
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+/* responsive adjustments */
+@media (max-width: 980px) {
+  .ed-stats-row { grid-template-columns: repeat(2, 1fr); }
+  .ed-map-row { grid-template-columns: 1fr; }
+}
