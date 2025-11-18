@@ -1,0 +1,343 @@
+/* ---------------------------------------------------------------
+   END USER DASHBOARD — GLASS + NEOMORPHIC THEME
+   --------------------------------------------------------------- */
+
+/* Smooth theme transition */
+/* :root, .dark {
+  transition: background-color 0.25s ease, color 0.25s ease;
+} */
+
+/* Page container styling */
+/* .dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 100%;
+} */
+
+/* ---------------------------------------------------------------
+   PAGE TITLES
+   --------------------------------------------------------------- */
+
+.page-title {
+  font-size: 32px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.5px;
+  color: var(--text);
+  text-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.dark .page-title {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+/* ---------------------------------------------------------------
+   UNIVERSAL NEO/GLASS CARDS
+   --------------------------------------------------------------- */
+
+.card {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 22px;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+
+  /* soft glass shadow */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  /* neo shadow */
+  box-shadow:
+      8px 8px 20px rgba(0,0,0,0.08),
+     -8px -8px 20px rgba(255,255,255,0.65);
+
+  transition: 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* DARK MODE — cards become soft, matte glass */
+.dark .card {
+  background: rgba(22, 26, 38, 0.55);
+  border: 1px solid rgba(255,255,255,0.07);
+
+  box-shadow:
+      6px 6px 14px rgba(0,0,0,0.75),
+     -3px -3px 10px rgba(255,255,255,0.06);
+}
+
+/* ---------------------------------------------------------------
+   METRICS CARDS
+   --------------------------------------------------------------- */
+
+.metrics-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.metric-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255,255,255,0.6);
+  box-shadow:
+      inset 3px 3px 8px rgba(0,0,0,0.12),
+      inset -3px -3px 8px rgba(255,255,255,0.7);
+}
+
+.dark .metric-icon {
+  background: rgba(255,255,255,0.08);
+  box-shadow:
+      inset 3px 3px 8px rgba(0,0,0,0.7),
+      inset -2px -2px 6px rgba(255,255,255,0.08);
+}
+
+/* ---------------------------------------------------------------
+   RANGE BUTTONS (Day/Week/Month)
+   --------------------------------------------------------------- */
+
+.range-btn {
+  padding: 8px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+
+  background: rgba(255,255,255,0.55);
+  color: var(--text);
+  border: 1px solid rgba(255,255,255,0.35);
+
+  backdrop-filter: blur(10px);
+  transition: 0.25s ease;
+}
+
+.range-btn:hover {
+  background: rgba(255,255,255,0.75);
+}
+
+/* ACTIVE RANGE BUTTON */
+.range-btn.active {
+  background: var(--accent);
+  color: white;
+  box-shadow:
+      3px 3px 8px rgba(0,0,0,0.15),
+     -3px -3px 8px rgba(255,255,255,0.5);
+}
+
+/* DARK MODE */
+.dark .range-btn {
+  background: rgba(26, 32, 44, 0.6);
+  border-color: rgba(255,255,255,0.08);
+  color: var(--text);
+}
+
+.dark .range-btn:hover {
+  background: rgba(26, 32, 44, 0.85);
+}
+
+.dark .range-btn.active {
+  background: var(--accent);
+  color: white;
+}
+
+/* ---------------------------------------------------------------
+   CHART CONTAINER
+   --------------------------------------------------------------- */
+
+.chart-card {
+  padding: 26px;
+  border-radius: 22px;
+}
+
+.recharts-cartesian-grid line {
+  stroke: rgba(0,0,0,0.07);
+}
+
+.dark .recharts-cartesian-grid line {
+  stroke: rgba(255,255,255,0.07);
+}
+
+.recharts-tooltip-wrapper {
+  backdrop-filter: blur(10px);
+}
+
+/* Tooltip styling */
+.chart-tooltip {
+  background: var(--card-bg);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--table-border);
+}
+
+/* ---------------------------------------------------------------
+   QUICK ACTION BUTTONS
+   --------------------------------------------------------------- */
+
+.quick-action-btn {
+  border-radius: 18px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(255,255,255,0.45);
+  box-shadow:
+      6px 6px 14px rgba(0,0,0,0.08),
+     -6px -6px 14px rgba(255,255,255,0.6);
+  transition: 0.25s ease;
+}
+
+.quick-action-btn:hover {
+  transform: translateY(-3px);
+}
+
+.dark .quick-action-btn {
+  background: rgba(20, 26, 37, 0.65);
+  border-color: rgba(255,255,255,0.08);
+  box-shadow:
+      6px 6px 14px rgba(0,0,0,0.75),
+     -3px -3px 10px rgba(255,255,255,0.06);
+}
+
+.dark .quick-action-btn:hover {
+  background: rgba(20, 26, 37, 0.8);
+}
+
+/* Icons inside quick buttons */
+.quick-action-btn span:first-child {
+  font-size: 26px;
+}
+
+
+
+
+/* Ensures text automatically adapts to theme */
+.text-theme {
+  color: var(--text);
+}
+
+.neo-card .value,
+.neo-card .label,
+.neo-card .action-label {
+  color: var(--text);
+}
+
+
+
+/* -----------------------------------
+   FIX: visible borders in light mode
+------------------------------------ */
+
+.neo-card,
+.metric-card,
+.quick-btn,
+.neo-inner {
+  border: 1px solid rgba(0, 0, 0, 0.06);   /* subtle border for light mode */
+}
+
+/* Dark mode — remove border for clean neumorphic look */
+.dark .neo-card,
+.dark .metric-card,
+.dark .quick-btn,
+.dark .neo-inner {
+  border: 1px solid rgba(255, 255, 255, 0.08); /* very soft outline */
+}
+
+
+
+
+
+
+/* -----------------------------------
+   NEOMORPHIC DEPTH FOR ALL CARDS
+------------------------------------ */
+
+.neo-card,
+.metric-card,
+.quick-btn,
+.neo-inner {
+  border-radius: 18px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  /* Light mode soft shadow */
+  background: #ffffff;
+  box-shadow:
+      6px 6px 16px rgba(0, 0, 0, 0.12),
+     -6px -6px 16px rgba(255, 255, 255, 0.8);
+
+  transition: all 0.25s ease;
+}
+
+/* Hover elevation */
+.neo-card:hover,
+.metric-card:hover,
+.quick-btn:hover {
+  transform: translateY(-3px);
+  box-shadow:
+      10px 10px 25px rgba(0, 0, 0, 0.18),
+     -10px -10px 25px rgba(255, 255, 255, 0.9);
+}
+
+/* -----------------------------------
+   DARK MODE NEOMORPHISHM
+------------------------------------ */
+
+.dark .neo-card,
+.dark .metric-card,
+.dark .quick-btn,
+.dark .neo-inner {
+  background: #131a27; /* near-black with blue hue */
+  border: 1px solid rgba(255, 255, 255, 0.06);
+
+  box-shadow:
+      6px 6px 14px rgba(0, 0, 0, 0.55),   /* darker outer drop */
+     -5px -5px 14px rgba(255, 255, 255, 0.05); /* subtle top-left glow */
+}
+
+/* Dark hover */
+.dark .neo-card:hover,
+.dark .metric-card:hover,
+.dark .quick-btn:hover {
+  transform: translateY(-3px);
+  box-shadow:
+      10px 10px 22px rgba(0, 0, 0, 0.7),
+     -8px -8px 20px rgba(255, 255, 255, 0.07);
+}
+
+/* -----------------------------------
+   Inner circular icon containers
+------------------------------------ */
+
+.metric-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  box-shadow:
+      inset 3px 3px 8px rgba(0, 0, 0, 0.12),
+      inset -3px -3px 8px rgba(255, 255, 255, 0.8);
+}
+
+.dark .metric-icon {
+  background: #111722;
+  box-shadow:
+      inset 3px 3px 8px rgba(0, 0, 0, 0.6),
+      inset -3px -3px 8px rgba(255, 255, 255, 0.06);
+}
+
+

@@ -1,0 +1,155 @@
+/* Bills.css - glass/neomorphic card, full dark/light support using your variables */
+
+/* Page container spacing (keeps consistent with your layout.css) */
+.page-section {
+  padding: 28px 40px;
+}
+
+/* Title */
+.page-title {
+  font-size: 34px;
+  margin: 6px 0 18px;
+  color: var(--text);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* Main card that holds the table */
+.bills-card {
+  background: var(--card-bg);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow:
+    0 10px 30px rgba(15, 20, 24, 0.06),
+    inset 0 1px 0 rgba(255,255,255,0.6);
+  border: 1px solid var(--table-border);
+}
+
+/* Table wrapper provides internal spacing & overflow handling */
+.bills-table-wrap {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 18px;
+}
+
+/* Table */
+.bills-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 780px;
+  font-family: inherit;
+}
+
+/* Head */
+.bills-table thead th {
+  text-align: left;
+  padding: 18px 20px;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text);
+  border-bottom: 1px solid var(--table-border);
+}
+
+/* Body cells */
+.bills-table td {
+  padding: 20px;
+  vertical-align: middle;
+  color: var(--text);
+  font-size: 15px;
+  border-bottom: 1px solid var(--table-border);
+}
+
+/* Last row hides the bottom border for a cleaner look (keeps card border) */
+.bills-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Actions column: right-aligned */
+.col-actions {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Buttons - glassy pill */
+.btn-primary-pill {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(180deg, var(--accent), #7b49e0);
+  color: white;
+  box-shadow: 0 10px 30px rgba(123,73,224,0.18);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.btn-primary-pill:hover { transform: translateY(-3px); box-shadow: 0 14px 40px rgba(123,73,224,0.22); }
+
+/* Status pills */
+.status-pill {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text);
+  background: rgba(0,0,0,0.03);
+  border: 1px solid transparent;
+}
+.status-pending {
+  background: linear-gradient(180deg, rgba(255,243,205,0.9), rgba(255,243,205,0.8));
+  color: #7b5b1f;
+}
+.status-paid {
+  background: linear-gradient(180deg, rgba(232,244,255,0.9), rgba(232,244,255,0.85));
+  color: #0f5874;
+}
+
+/* Note text */
+.bills-note {
+  margin: 6px 2px 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* ------------- Dark mode overrides -------------- */
+/* These rely on your .dark root variables already set in App.css/ Layout.css */
+.dark .bills-card {
+  background: var(--card-lite-bg);
+  border-color: rgba(255,255,255,0.04);
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.6),
+    inset 0 1px 0 rgba(255,255,255,0.02);
+}
+
+/* make sure table text contrasts in dark mode */
+.dark .bills-table thead th,
+.dark .bills-table td {
+  color: var(--text);
+  border-color: var(--table-border);
+}
+
+/* Button shades in dark */
+.dark .btn-primary-pill {
+  background: linear-gradient(180deg, #7b49e0, #5a2fcf);
+  box-shadow: 0 14px 30px rgba(27, 18, 53, 0.6);
+}
+
+/* Status pills adapt in dark mode */
+.dark .status-pending {
+  background: linear-gradient(180deg, rgba(255,243,205,0.06), rgba(255,243,205,0.04));
+  color: #f5d694;
+  border: 1px solid rgba(255,243,205,0.04);
+}
+.dark .status-paid {
+  background: linear-gradient(180deg, rgba(232,244,255,0.04), rgba(232,244,255,0.02));
+  color: #8fbfd6;
+  border: 1px solid rgba(232,244,255,0.02);
+}
+
+/* Responsiveness */
+@media (max-width: 900px) {
+  .page-section { padding: 18px; }
+  .bills-table { min-width: 600px; }
+  .bills-card { padding: 18px; border-radius: 14px; }
+}

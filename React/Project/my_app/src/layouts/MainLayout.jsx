@@ -184,26 +184,35 @@ export default function MainLayout() {
           {/* ✅ Brand title fixed */}
           {/* <div className="brand">{t("appTitle")}</div> */}
 
-          <div className="sidebar-section-title">{t("menu")}</div>
+          {/* <div className="sidebar-section-title">{t("menu")}</div> */}
 
           <nav className="menu">
             {navigationItems.map((item) => (
+              // <NavLink
+              //   key={item.path}
+              //   to={item.path}
+              //   className={({ isActive }) => `menu-item${isActive ? " active" : ""}`}
+              // >
+              //   {item.label}
+              // </NavLink>
               <NavLink
                 key={item.path}
                 to={item.path}
+                end={item.path === navigationItems[0].path}   // Only Dashboard gets "end"
                 className={({ isActive }) => `menu-item${isActive ? " active" : ""}`}
               >
                 {item.label}
               </NavLink>
+
             ))}
           </nav>
 
           <div className="sidebar-footer">
             <div className="user-info">
               <span className="user-name">{user?.name}</span>
-              <span className="user-role">
+              <div className="user-role">
                 {t("role")}: {getTranslatedRole(user?.role)}
-              </span>
+              </div>
             </div>
             <button onClick={logout} className="logout-btn">
               {t("logout")}
