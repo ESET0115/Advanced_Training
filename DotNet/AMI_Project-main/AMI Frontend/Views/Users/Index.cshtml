@@ -1,0 +1,250 @@
+﻿﻿@{
+ViewBag.Title = "Users";
+Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4 class="fw-bold text-dark">👥 System Users</h4>
+        <button id="refreshUsers" class="btn btn-success btn-sm shadow-sm">
+            <i class="bi bi-arrow-clockwise"></i> Refresh
+        </button>
+    </div>
+
+    <div class="card shadow border-0 rounded-4">
+        <div class="card-body">
+            <table class="table table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>User ID</th>
+                        <th>Email</th>
+                        <th>Display Name</th>
+                        <th>Role</th>
+                        <th>Created At</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="userTableBody">
+                    <tr><td colspan="6" class="text-center text-muted py-4">Loading users...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Edit User Modal -->
+<div class="modal fade" id="editUserModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-4">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold">Edit User</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editUserForm">
+                    <input type="hidden" id="editUserId" />
+
+                    <div class="mb-3">
+                        <label class="form-label">Display Name</label>
+                        <input type="text" class="form-control" id="editDisplayName" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" id="editEmail" required readonly />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Role</label>
+                        <select class="form-select" id="editRole" required>
+                            <option value="">-- Select Role --</option>
+                            <option value="Admin">Admin</option>
+                            <option value="User">User</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const apiBase = "https://localhost:7199/api/users"; // API URL
+
+    // 🔹 Get user role from JWT stored in localStorage
+    function getUserRole() {
+        const token = localStorage.getItem("jwtToken");
+        if (!token) return null;
+
+        try {
+            const payload = JSON.parse(atob(token.split('.')[1]));
+            return payload["role"] || payload["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+        } catch {
+            return null;
+        }
+    }
+
+    function loadUsers() {
+        $("#userTableBody").html("<tr><td colspan='6' class='text-center text-muted py-4'>Loading...</td></tr>");
+
+        $.ajax({
+            url: apiBase,
+            method: "GET",
+            success: function (data) {
+                if (!data || data.length === 0) {
+                    $("#userTableBody").html("<tr><td colspan='6' class='text-center text-muted py-4'>No users found.</td></tr>");
+                    return;
+                }
+
+                const role = getUserRole(); // current logged-in user role
+                let rows = "";
+
+    data.forEach(u => {
+        const role = getUserRole(); // current logged-in user role
+        let actionButtons = "";
+
+        if (role === "Admin") {
+            // Admins see edit + delete buttons
+            actionButtons = `
+                <button class="btn btn-sm btn-outline-primary me-2 edit-btn"
+                    data-id="${u.userId}"
+                    data-email="${u.email}"
+                    data-name="${u.displayName}"
+                    data-role="${u.role}">
+                    <i class="bi bi-pencil-square"></i>
+                </button>
+                <button class="btn btn-sm btn-outline-danger delete-btn" data-id="${u.userId}">
+                    <i class="bi bi-trash"></i>
+                </button>`;
+        } else {
+            // Non-admin users see a view-only icon
+            actionButtons = `
+                <button class="btn btn-sm btn-outline-secondary view-btn" title="View User">
+                    <i class="bi bi-eye"></i>
+                </button>`;
+        }
+
+        rows += `
+            <tr>
+                <td>${u.userId}</td>
+                <td>${u.email}</td>
+                <td>${u.displayName || "-"}</td>
+                <td><span class="badge ${u.role === 'Admin' ? 'bg-primary' : 'bg-secondary'}">${u.role}</span></td>
+                <td>${new Date(u.createdAt).toLocaleDateString()}</td>
+                <td class="text-center">
+                    ${actionButtons}
+                </td>
+            </tr>`;
+    });
+
+
+                $("#userTableBody").html(rows);
+            },
+            error: function (xhr) {
+                $("#userTableBody").html(`<tr><td colspan='6' class='text-center text-danger py-4'>Error loading users: ${xhr.status}</td></tr>`);
+            }
+        });
+    }
+
+    // **Show Edit Modal**
+    $(document).on("click", ".edit-btn", function () {
+        $("#editUserId").val($(this).data("id"));
+        $("#editEmail").val($(this).data("email"));
+        $("#editDisplayName").val($(this).data("name"));
+        $("#editRole").val($(this).data("role"));
+
+        const modal = new bootstrap.Modal(document.getElementById('editUserModal'));
+        modal.show();
+    });
+
+    // **Submit Edit Form**
+    $("#editUserForm").on("submit", function (e) {
+        e.preventDefault();
+        const id = $("#editUserId").val();
+        const payload = {
+            displayName: $("#editDisplayName").val(),
+            role: $("#editRole").val()
+        };
+
+        $.ajax({
+            url: `${apiBase}/${id}`,
+            method: "PUT",
+            contentType: "application/json",
+            data: JSON.stringify(payload),
+            success: function () {
+                const modal = bootstrap.Modal.getInstance(document.getElementById('editUserModal'));
+                modal.hide();
+                loadUsers();
+            },
+            error: function (xhr) {
+                alert(xhr.responseJSON?.message || "Error updating user.");
+            }
+        });
+    });
+
+    // Delete user
+    $(document).on("click", ".delete-btn", function () {
+        const id = $(this).data("id");
+        if (!confirm("Are you sure you want to delete this user?")) return;
+
+        $.ajax({
+            url: `${apiBase}/${id}`,
+            method: "DELETE",
+            success: function () {
+                loadUsers();
+            },
+            error: function (xhr) {
+                alert(xhr.responseJSON?.message || "Error deleting user.");
+            }
+        });
+    });
+
+    $(document).ready(() => {
+        loadUsers();
+    });
+</script>
+
+
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: "Inter", system-ui, sans-serif;
+    }
+
+    .card {
+        border-radius: 1rem !important;
+    }
+
+    table th {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .btn-success {
+        background: linear-gradient(90deg, #00b3d8, #00d084);
+        border: none;
+    }
+
+        .btn-success:hover {
+            background: linear-gradient(90deg, #00d084, #00b3d8);
+        }
+
+    .btn-outline-primary, .btn-outline-danger {
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal-content {
+        border-radius: 1rem;
+    }
+</style>

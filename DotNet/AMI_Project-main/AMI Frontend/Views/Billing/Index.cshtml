@@ -1,0 +1,134 @@
+﻿@{
+    ViewBag.Title = "Generate Bill";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string serialNo = ViewBag.SerialNo ?? "";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+        <h4 class="fw-bold text-primary"><i class="bi bi-receipt"></i> Generate Electricity Bill</h4>
+        <a class="btn btn-outline-secondary btn-sm" href="javascript:history.back()"><i class="bi bi-arrow-left"></i> Back</a>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body d-flex flex-wrap gap-3 align-items-center">
+            <div style="flex:1 1 200px;">
+                <label class="fw-semibold">Meter Serial:</label>
+                <input type="text" class="form-control" id="meterSerial" value="@serialNo" readonly />
+            </div>
+
+            <div style="flex:1 1 120px;">
+                <label class="fw-semibold">Year:</label>
+                <input type="number" id="year" class="form-control" />
+            </div>
+
+            <div style="flex:1 1 120px;">
+                <label class="fw-semibold">Month:</label>
+                <select id="month" class="form-select">
+                    @for (int i = 1; i <= 12; i++)
+                    {
+                        <option value="@i">@i</option>
+                    }
+                </select>
+            </div>
+
+            <div class="align-self-end">
+                <button id="generateBillBtn" class="btn btn-gradient mt-3"><i class="bi bi-receipt"></i> Generate Bill</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Billing Modal -->
+<div class="modal fade" id="billModal" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Esyahard Electricals</h4>
+                <small>Official Electricity Bill</small>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <table class="table table-borderless mb-3">
+                    <tbody>
+                        <tr>
+                            <th>Meter Serial:</th>
+                            <td id="modalMeterSerial"></td>
+                            <th>Month/Year:</th>
+                            <td id="modalMonthYear"></td>
+                        </tr>
+                        <tr>
+                            <th>Total Units:</th>
+                            <td id="modalTotalUnits"></td>
+                            <th>Base Rate:</th>
+                            <td>₹<span id="modalBaseRate"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Tax Rate:</th>
+                            <td id="modalTaxRate"></td>
+                            <th>Total Bill:</th>
+                            <td>₹<span id="modalBillAmount"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h6 class="fw-bold">Slabs Applied:</h6>
+                <table class="table table-sm table-striped table-bordered mb-3">
+                    <thead class="table-light">
+                        <tr><th>#</th><th>Details</th></tr>
+                    </thead>
+                    <tbody id="modalSlabsTable"></tbody>
+                </table>
+
+                <div class="text-center mb-3">
+                    <img id="modalQrCode" alt="QR Code" style="width:140px; height:140px;" />
+                    <p class="small text-muted mt-1">Scan to view or pay online</p>
+                </div>
+
+                <div class="text-center">
+                    <button id="payBillBtn" class="btn btn-pay btn-lg"><i class="bi bi-cash-stack"></i> Pay Bill</button>
+                </div>
+            </div>
+
+            <div class="modal-footer justify-content-center">
+                <small class="text-muted">Thank you for choosing Esyahard Electricals!</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    const apiBillBase = "https://localhost:7199/api/Billing";
+
+    $(function() {
+        const now = new Date();
+        $("#year").val(now.getUTCFullYear());
+        $("#month").val(now.getUTCMonth() + 1);
+
+        $("#generateBillBtn").click(generateBill);
+        $("#payBillBtn").click(() => alert("Thank you! Your bill has been paid."));
+    });
+
+
+</script>
+
+<style>
+    .btn-gradient {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        color: #fff;
+        border: none;
+        font-weight: 600;
+    }
+
+    .btn-pay {
+        background: linear-gradient(135deg, #ff416c, #ff4b2b);
+        color: #fff;
+        font-weight: 700;
+    }
+</style>

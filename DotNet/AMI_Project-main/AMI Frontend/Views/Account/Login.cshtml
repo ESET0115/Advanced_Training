@@ -1,0 +1,191 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container d-flex align-items-center justify-content-center min-vh-100">
+    <div class="login-card row shadow-lg rounded-4 overflow-hidden w-100" style="max-width: 900px;">
+        <!-- Left Panel -->
+        <div class="col-md-6 left-panel d-flex flex-column justify-content-center p-5 text-white">
+            <h1 class="fw-bold mb-3">Welcome Back ⚡</h1>
+            <p class="lead">Monitor, manage, and save energy efficiently with our Smart Metering System.</p>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="col-md-6 right-panel p-5">
+            <h3 class="text-center mb-4 fw-semibold">Login</h3>
+
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                </div>
+
+                <button type="submit" class="btn btn-energy w-100 py-2 fw-semibold">Login</button>
+            </form>
+
+            <div class="text-center mt-3">
+                <p>
+                    New user? <a href="/Account/Register" class="text-decoration-none fw-semibold text-accent">Register here</a>
+                </p>
+                <p>
+                    Are you a consumer? <a href="/Account/ConsumerLogin" class="text-decoration-none fw-semibold text-accent">Click here</a>
+                </p>
+            </div>
+
+            <p class="error-message text-center mt-2" id="errorMsg" style="min-height:1.5em;"></p>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: "Inter", system-ui, sans-serif;
+        background: linear-gradient(135deg,#00b3d8 0%,#00d084 100%);
+        transition: all 0.4s ease-in-out;
+    }
+
+    .left-panel {
+        background: linear-gradient(160deg,#00b3d8,#00d084);
+        color: #fff;
+    }
+
+    .right-panel {
+        background-color: #fff;
+        color: #222;
+    }
+
+    .form-control {
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+    .btn-energy {
+        background: linear-gradient(90deg,#00b3d8,#00d084);
+        border: none;
+        color: white;
+        font-size: 1.05rem;
+    }
+
+    .text-accent {
+        color: #00b3d8;
+    }
+
+    .error-message {
+        color: #dc3545;
+        font-size: 0.95rem;
+        font-weight: 600;
+        min-height: 1.5em;
+        display: block;
+    }
+
+    @@media (max-width: 768px) {
+        .left-panel
+
+    {
+        display: none;
+    }
+
+    .right-panel {
+        padding: 2rem 1.5rem;
+    }
+
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    function decodeJwtPayload(token) {
+        try {
+            const parts = token.split('.');
+            if (parts.length !== 3) return null;
+            const payload = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+            const json = decodeURIComponent(atob(payload).split('').map(c => '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)).join(''));
+            return JSON.parse(json);
+        } catch (e) {
+            return null;
+        }
+    }
+
+    $(document).ready(function() {
+        $("#loginForm").submit(function(e) {
+            e.preventDefault();
+            $("#errorMsg").text("");
+
+            const payload = {
+                email: $("#email").val(),
+                password: $("#password").val()
+            };
+
+            $.ajax({
+                url: "/Account/LoginUser",
+                method: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(payload),
+                success: function(response) {
+                    const token = response.token;
+                    let roles = (response.roles || []).map(r => (r || "").toString().toLowerCase().trim());
+
+                    if (!token) {
+                        $("#errorMsg").text("Login failed: Server did not return a token.");
+                        return;
+                    }
+
+                    // Decode roles from token if not provided
+                    if ((!roles || roles.length === 0) && token) {
+                        const decoded = decodeJwtPayload(token);
+                        if (decoded) {
+                            const claimCandidates = ["role","roles","http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+                            let foundRoles = [];
+                            claimCandidates.forEach(k => {
+                                if (decoded[k]) {
+                                    if (Array.isArray(decoded[k])) foundRoles = foundRoles.concat(decoded[k]);
+                                    else foundRoles.push(decoded[k]);
+                                }
+                            });
+                            if (foundRoles.length > 0) roles = foundRoles.map(r => r.toString().toLowerCase().trim());
+                        }
+                    }
+
+                    localStorage.setItem("jwtToken", token);
+                    localStorage.setItem("userEmail", $("#email").val());
+
+
+                    if (roles.includes("user")) {
+                        window.location.href = "/Dashboard/User";
+                    } else if (roles.includes("admin")) {
+                        window.location.href = "/Dashboard/Index";
+                    } else {
+                        $("#errorMsg").text("Login successful, but your role does not have access to this portal.");
+                    }
+                },
+                error: function(xhr) {
+                    let msg = "Login failed: Unknown error.";
+
+                    if (xhr.status === 0) {
+                        msg = "Login failed: Cannot connect to server. Check network or server status.";
+                    } else if (xhr.status >= 400 && xhr.status < 500) {
+                        try {
+                            const json = xhr.responseJSON || JSON.parse(xhr.responseText || "{}");
+                            msg = json.message || "Invalid email or password.";
+                        } catch {
+                            msg = "Invalid email or password.";
+                        }
+                    } else if (xhr.status >= 500) {
+                        msg = `Login failed: Server error (${xhr.status}). Please try again later.`;
+                    }
+
+                    $("#errorMsg").text(msg);
+                }
+            });
+        });
+    });
+</script>

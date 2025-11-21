@@ -88,7 +88,7 @@
 }
 
 /* Chart Grid Color */
-:root {
+:root {  
   --chart-grid: rgba(0,0,0,0.06);
 }
 

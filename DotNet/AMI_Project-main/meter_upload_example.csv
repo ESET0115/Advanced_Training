@@ -1,0 +1,3 @@
+MeterSerialNo,IpAddress,Iccid,Imsi,Manufacturer,Firmware,Category,ConsumerId
+MT1006,192.168.0.11,8.95E+18,1.23E+14,Siemens,FW1.1,Industrial,23
+MT1007,192.168.0.12,8.95E+18,1.23E+14,Schneider,FW1.2,Domestic,24
